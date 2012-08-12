@@ -211,7 +211,7 @@ public class TrieNode {
                     } else if ("n".equals(iyn) || "N".equals(iyn)) {
                         break;
                     } else {
-                        System.out.println("Please enter y or n!");
+                        System.out.println("Enter y or n please!");
                     }
                 }
             }
