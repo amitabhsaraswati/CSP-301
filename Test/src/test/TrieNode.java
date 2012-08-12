@@ -196,7 +196,7 @@ public class TrieNode {
                 a.changeerror(s);
                 long m2 = System.currentTimeMillis();
                 long gt = m2 - m1;
-                System.out.println("Time taken to generate suggestions is " + gt + " ms.");
+                System.out.println("Time taken to generate suggestions was " + gt + " ms.");
                 System.out.println("Are you sure its a correct word and want it to be added to the dictionary? (y/n)");
                 while (true) {
                     Scanner iyn1 = new Scanner(System.in);
