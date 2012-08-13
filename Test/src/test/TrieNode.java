@@ -190,41 +190,45 @@ public class TrieNode {
                 long st1 = t5 - t3;
                 System.out.println("Time taken to search the given word is " + st1 + " ns.");
                 System.out.println("The spelling seems to be wrong! Did you mean any of the following?");
+                System.out.println("Delete Errors:");
                 a.delerror(s);
+                System.out.println("Replace Errors");
                 a.replaceerror(s);
+                System.out.println("Insert Errors");
                 a.inserterror(s);
+                System.out.println("Change Errors");
                 a.changeerror(s);
                 long m2 = System.currentTimeMillis();
                 long gt = m2 - m1;
                 System.out.println("Time taken to generate suggestions was " + gt + " ms.");
-                System.out.println("Are you sure its a correct word and want it to be added to the dictionary? (y/n)");
+                System.out.println("Are you sure its a correct word and want it to be added to the dictionary? (yes/no)");
                 while (true) {
                     Scanner iyn1 = new Scanner(System.in);
                     String iyn = iyn1.nextLine();
-                    if (iyn.equals("y") || iyn.equals("Y")) {
+                    if (iyn.equals("yes") || iyn.equals("Yes")) {
                         long i1 = System.nanoTime();
                         a.insert(s);
                         long i2 = System.nanoTime();
                         long i = i2 - i1;
                         System.out.println("Time taken to insert the word is " + i + " ns.");
                         break;
-                    } else if ("n".equals(iyn) || "N".equals(iyn)) {
+                    } else if ("no".equals(iyn) || "No".equals(iyn)) {
                         break;
                     } else {
-                        System.out.println("Enter y or n please!");
+                        System.out.println("Enter yes or no please!");
                     }
                 }
             }
-            System.out.println("Do you wish to enter another word? (y/n)");
+            System.out.println("Do you wish to enter another word? (yes/no)");
             while (true) {
                 Scanner loop = new Scanner(System.in);
                 String loop1 = loop.nextLine();
-                if (loop1.equals("y") || loop1.equals("Y")) {
+                if (loop1.equals("yes") || loop1.equals("Yes")) {
                     break;
-                } else if (loop1.equals("n") || loop1.equals("N")) {
+                } else if (loop1.equals("no") || loop1.equals("No")) {
                     System.exit(0);
                 } else {
-                    System.out.println("Please enter y or n!");
+                    System.out.println("Please enter yes or no!");
                 }
             }
         }
