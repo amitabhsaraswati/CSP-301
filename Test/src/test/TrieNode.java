@@ -14,6 +14,8 @@ public class TrieNode {
         t = new TrieNode[26];
     }
 
+   // i am a god //
+    
     public void insert(String s) {
         String w = s.toLowerCase();
         int p = w.charAt(0) - 97;
