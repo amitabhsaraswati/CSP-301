@@ -96,8 +96,8 @@ public class TrieNode {
         String[] x = new String[20];
         for (int j = 0; j < w.length(); j++) {
             for (int i = 0; i < 26; i++) {
-                char p = (char) (i + 97);
-                String a = w.substring(0, j) + p + w.substring(j + 1);
+                char das = (char) (i + 97);
+                String a = w.substring(0, j) + das + w.substring(j + 1);
                 if (has(a) && checkarray(a, x) == false) {
                     x[y] = a;
                     y++;
