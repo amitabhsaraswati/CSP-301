@@ -26,6 +26,11 @@ public class TrieNode {
             t[p].end = true;
         }
     }
+    
+    public int square(int n){
+        int p = n*n;
+        return p;
+    }
 
     public void MakeTrie() throws IOException {
         FileReader read = new FileReader("C:\\Users\\sony\\Documents\\NetBeansProjects\\Assignment2\\src\\dict.txt");
@@ -168,14 +173,15 @@ public class TrieNode {
     }
 
     public static void main(String[] args) throws IOException {
+        System.out.println("Welcome!");
         TrieNode a = new TrieNode();
         long t1 = System.currentTimeMillis();
         a.MakeTrie();
         long t2 = System.currentTimeMillis();
         long t = t2 - t1;
-        System.out.println("Time taken to build the trie is " + t + " ms.");
+        System.out.println("Time taken to build the trie was " + t + " ms.");
         while (true) {
-            System.out.println("Enter a word:");
+            System.out.println("Please enter a word:");
             Scanner word = new Scanner(System.in);
             String s = word.nextLine();
             long t3 = System.nanoTime();
