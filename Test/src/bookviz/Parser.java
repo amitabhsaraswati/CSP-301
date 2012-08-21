@@ -64,7 +64,6 @@ public class Parser {
 				book.set("value",value1.nextToken());
 			}
 			else if (line.equals("  edge")){
-				@SuppressWarnings("unused")
 				String waste2 = reader.readLine();
 				String source = reader.readLine();
 				StringTokenizer source1 = new StringTokenizer(source, "e ");
@@ -80,19 +79,17 @@ public class Parser {
 				continue;
 			}
 		}
-		
+
 		return pol;
 	}
-	
+
 	public void parseblog() throws IOException{
 		System.out.println("Enter the location of the file:");
 		Scanner file = new Scanner(System.in);
 		String file1 = file.nextLine();
 		FileReader read = new FileReader(file1);
 		BufferedReader reader = new BufferedReader(read);
-		@SuppressWarnings("unused")
 		String creator = reader.readLine();
-		@SuppressWarnings("unused")
 		String graph = reader.readLine();
 		String directed = reader.readLine();
 		StringTokenizer direction = new StringTokenizer(directed, "d ");
@@ -155,4 +152,3 @@ public class Parser {
 		}
 	}
 }
-//retest
