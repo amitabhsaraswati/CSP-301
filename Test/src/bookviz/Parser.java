@@ -55,9 +55,9 @@ public class Parser {
 		        int no = Integer.parseInt(id1.nextToken());
 		        book.set("id",no);
 		        String label = reader.readLine();
-				StringTokenizer label1 = new StringTokenizer(label, "l ");
-				label1.nextToken();
-				book.set("label", label1.nextToken());
+				StringTokenizer label1 = new StringTokenizer(label, " ");
+		        label1.nextToken();
+			   	book.set("label", label1.nextToken());
 				String value = reader.readLine();
 				StringTokenizer value1 = new StringTokenizer(value, "e ");
 				value1.nextToken();
