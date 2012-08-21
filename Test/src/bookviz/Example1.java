@@ -2,9 +2,7 @@ package bookviz;
 
 import java.awt.Color;
 import java.io.IOException;
-
 import javax.swing.JFrame;
-
 import prefuse.Constants;
 import prefuse.Display;
 import prefuse.Visualization;
@@ -13,6 +11,8 @@ import prefuse.action.RepaintAction;
 import prefuse.action.assignment.ColorAction;
 import prefuse.action.assignment.DataColorAction;
 import prefuse.action.layout.RandomLayout;
+import prefuse.action.layout.graph.ForceDirectedLayout;
+import prefuse.activity.Activity;
 import prefuse.controls.DragControl;
 import prefuse.controls.PanControl;
 import prefuse.controls.ZoomControl;
@@ -42,18 +42,19 @@ public class Example1 {
 		vis.run("color");
 		vis.run("layout");
 		}
-	
-	
+
+
 	private static void setUpDisplay() {
 		d = new Display(vis);
 		d.setSize(720, 500);
 		d.addControlListener(new DragControl());
 		d.addControlListener(new PanControl());
 		d.addControlListener(new ZoomControl());
+		d.addControlListener(new Hover());
 		d.setBackground(Color.BLACK);
 	}
-	
-	
+
+
 
 
 	private static void setUpActions() {
@@ -63,8 +64,8 @@ public class Example1 {
 		ActionList color = new ActionList();
 		color.add(fill);
 		color.add(edges);
-		ActionList layout = new ActionList();		
-		layout.add(new RandomLayout("pol"));
+		ActionList layout = new ActionList(Activity.INFINITY);		
+		layout.add(new ForceDirectedLayout("pol", true));
 		layout.add(new RepaintAction());
 		vis.putAction("color", color);
 		vis.putAction("layout", layout);
@@ -75,13 +76,10 @@ public class Example1 {
 		ShapeRenderer r = new ShapeRenderer();
 		vis.setRendererFactory(new DefaultRendererFactory(r));
 	}
-	
-	
+
+
 	private static void setUpVisualization() {
 		vis = new Visualization();
 		vis.add("pol", graph);
 	}
 }
-
-
-
