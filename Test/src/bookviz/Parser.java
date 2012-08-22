@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
+import prefuse.data.Edge;
 import prefuse.data.Graph;
 import prefuse.data.Node;
 
@@ -33,12 +34,14 @@ public class Parser {
         	pol.addColumn("id", int.class);
         	pol.addColumn("label", String.class);
         	pol.addColumn("value", String.class);
+        	pol.addColumn("Edgetype", String.class);
         }
         else {
         	pol = new Graph(false);
         	pol.addColumn("id", int.class);
         	pol.addColumn("label", String.class);
         	pol.addColumn("value", String.class);
+        	pol.addColumn("Edgetype", String.class);
         }
 		while(true){
 			String line = reader.readLine();
@@ -73,8 +76,12 @@ public class Parser {
 				StringTokenizer target1 = new StringTokenizer(target, "t ");
 				target1.nextToken();
 		        int tar = Integer.parseInt(target1.nextToken());
-		        pol.addEdge(src, tar);
-			}
+		        int apple = pol.addEdge(src, tar);
+                Edge abc = pol.getEdge(apple);
+                String mango = (String) (pol.getNode(src)).get("value");
+                String banana = (String) (pol.getNode(tar)).get("value");
+                abc.set("Edgetype", mango+banana );
+		        }
 			else {
 				continue;
 			}

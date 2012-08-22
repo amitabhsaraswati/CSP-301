@@ -20,6 +20,7 @@ import prefuse.data.Graph;
 import prefuse.render.DefaultRendererFactory;
 import prefuse.render.ShapeRenderer;
 import prefuse.util.ColorLib;
+import prefuse.visual.EdgeItem;
 import prefuse.visual.VisualItem;
 
 public class Example1 {
@@ -60,10 +61,11 @@ public class Example1 {
 	private static void setUpActions() {
 		int[] palette = {ColorLib.rgb(200, 0, 0), ColorLib.rgb(200,200, 200), ColorLib.rgb(0,  200, 0)}; 
 		DataColorAction fill = new DataColorAction("pol.nodes","value", Constants.NOMINAL, VisualItem.FILLCOLOR, palette);
-		ColorAction edges = new ColorAction("pol.edges",VisualItem.STROKECOLOR,ColorLib.rgb(0, 0, 200));
+		int[] palette2 = {ColorLib.rgb(200, 0, 200), ColorLib.rgb(200,0, 200), ColorLib.rgb(0,  200, 200), ColorLib.rgb(0,  200, 200), ColorLib.rgb(200,  200, 0), ColorLib.rgb(200,  200, 0), ColorLib.rgb(50,  50, 0), ColorLib.rgb(50,  50, 0)}; 
+		DataColorAction ngo = new DataColorAction("pol.edges","Edgetype", Constants.NOMINAL, VisualItem.STROKECOLOR, palette2);
 		ActionList color = new ActionList();
 		color.add(fill);
-		color.add(edges);
+		color.add(ngo);
 		ActionList layout = new ActionList(Activity.INFINITY);		
 		layout.add(new ForceDirectedLayout("pol", true));
 		layout.add(new RepaintAction());
