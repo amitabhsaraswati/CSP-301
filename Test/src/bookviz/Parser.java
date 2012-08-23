@@ -67,6 +67,7 @@ public class Parser {
 				book.set("value",value1.nextToken());
 			}
 			else if (line.equals("  edge")){
+				@SuppressWarnings("unused")
 				String waste2 = reader.readLine();
 				String source = reader.readLine();
 				StringTokenizer source1 = new StringTokenizer(source, "e ");
@@ -89,8 +90,8 @@ public class Parser {
 
 		return pol;
 	}
-
-	public void parseblog() throws IOException{
+	@SuppressWarnings("unused")
+	public Graph parseblog() throws IOException{
 		System.out.println("Enter the location of the file:");
 		Scanner file = new Scanner(System.in);
 		String file1 = file.nextLine();
@@ -103,18 +104,20 @@ public class Parser {
 		direction.nextToken();
         int bool = Integer.parseInt(direction.nextToken());
         if (bool == 1){
-        	Graph blog = new Graph(true);
+        	blog = new Graph(true);
         	blog.addColumn("id", int.class);
         	blog.addColumn("label", String.class);
-        	blog.addColumn("value", int.class);
+        	blog.addColumn("value", String.class);
         	blog.addColumn("source", String.class);
+        	blog.addColumn("Edgetype", String.class);
         }
         else {
-        	Graph blog = new Graph(false);
+        	blog = new Graph(false);
         	blog.addColumn("id", int.class);
         	blog.addColumn("label", String.class);
-        	blog.addColumn("value", int.class);
+        	blog.addColumn("value", String.class);
         	blog.addColumn("source", String.class);
+        	blog.addColumn("Edgetype", String.class);        
         }
 		while(true){
 			String line = reader.readLine();
@@ -122,28 +125,27 @@ public class Parser {
 				break;
 			}
 			else if (line.equals("  node [")){
-				Node blogs = pol.addNode();
+				Node blogger = blog.addNode();
 				String id = reader.readLine();
 				StringTokenizer id1 = new StringTokenizer(id, "d ");
 				id1.nextToken();
 		        int no = Integer.parseInt(id1.nextToken());
-		        blogs.set("id",no);
+		        blogger.set("id",no);
 		        String label = reader.readLine();
 				StringTokenizer label1 = new StringTokenizer(label, "l ");
 				label1.nextToken();
-				blogs.set("label", label1.nextToken());
+				blogger.set("label", label1.nextToken());
 				String value = reader.readLine();
 				StringTokenizer value1 = new StringTokenizer(value, "e ");
-				id1.nextToken();
-				int no1 = Integer.parseInt(value1.nextToken());
-				blogs.set("value",no1);
+				value1.nextToken();
+				blogger.set("value",value1.nextToken());
 				String source = reader.readLine();
 				StringTokenizer source1 = new StringTokenizer(source, "e ");
 				source1.nextToken();
-				blogs.set("source",source1.nextToken());
+				blogger.set("source",source1.nextToken());
 			}
 			else if (line.equals("  edge [")){
-				String source = reader.readLine();
+				String source = reader.readLine();	
 				StringTokenizer source1 = new StringTokenizer(source, "e ");
 				source1.nextToken();
 		        int src = Integer.parseInt(source1.nextToken());
@@ -151,11 +153,17 @@ public class Parser {
 				StringTokenizer target1 = new StringTokenizer(target, "t ");
 				target1.nextToken();
 		        int tar = Integer.parseInt(target1.nextToken());
-		        blog.addEdge(src, tar);
+		        int apple = blog.addEdge(src, tar);
+		        System.out.println(apple);
+		        Edge abc = blog.getEdge(apple);
+                String mango = (String) (blog.getNode(src)).get("value");
+                String banana = (String) (blog.getNode(tar)).get("value");
+                abc.set("Edgetype", mango+banana );
 			}
 			else {
 				continue;
 			}
 		}
+		return blog;
 	}
 }

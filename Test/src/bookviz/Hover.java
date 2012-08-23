@@ -11,6 +11,7 @@ import prefuse.visual.NodeItem;
 import prefuse.visual.EdgeItem;
 import prefuse.visual.VisualItem;
 
+@SuppressWarnings("unused")
 
 public class Hover extends ControlAdapter implements Control{
 	public void itemClicked(VisualItem item, MouseEvent e){
