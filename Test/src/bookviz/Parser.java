@@ -110,6 +110,7 @@ public class Parser {
         	blog.addColumn("value", String.class);
         	blog.addColumn("source", String.class);
         	blog.addColumn("Edgetype", String.class);
+        	Node blogs = blog.addNode();
         }
         else {
         	blog = new Graph(false);
@@ -117,7 +118,8 @@ public class Parser {
         	blog.addColumn("label", String.class);
         	blog.addColumn("value", String.class);
         	blog.addColumn("source", String.class);
-        	blog.addColumn("Edgetype", String.class);        
+        	blog.addColumn("Edgetype", String.class);   
+        	Node blogs = blog.addNode();
         }
 		while(true){
 			String line = reader.readLine();
@@ -154,7 +156,7 @@ public class Parser {
 				target1.nextToken();
 		        int tar = Integer.parseInt(target1.nextToken());
 		        int apple = blog.addEdge(src, tar);
-		        System.out.println(apple);
+		        //System.out.println(apple);
 		        Edge abc = blog.getEdge(apple);
                 String mango = (String) (blog.getNode(src)).get("value");
                 String banana = (String) (blog.getNode(tar)).get("value");

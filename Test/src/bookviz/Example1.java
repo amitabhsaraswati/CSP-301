@@ -30,7 +30,7 @@ public class Example1 {
 	public static void main(String [] argv) throws IOException{
 		Parser a = new Parser();
 		graph = a.parsebook();
-		System.out.println(graph.getNodeCount());
+		//System.out.println(graph.getNodeCount());
 		setUpVisualization();
 		setUPRenderers();
 		setUpActions();
