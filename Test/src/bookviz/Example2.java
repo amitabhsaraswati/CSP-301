@@ -2,11 +2,14 @@ package bookviz;
 
 import java.awt.Color;
 import java.io.IOException;
+import java.util.Iterator;
+
 import javax.swing.JFrame;
 import prefuse.Constants;
 import prefuse.Display;
 import prefuse.Visualization;
 import prefuse.action.ActionList;
+import prefuse.action.CompositeAction;
 import prefuse.action.RepaintAction;
 import prefuse.action.assignment.ColorAction;
 import prefuse.action.assignment.DataColorAction;
@@ -17,6 +20,8 @@ import prefuse.controls.DragControl;
 import prefuse.controls.PanControl;
 import prefuse.controls.ZoomControl;
 import prefuse.data.Graph;
+import prefuse.data.Node;
+import prefuse.data.Tuple;
 import prefuse.render.DefaultRendererFactory;
 import prefuse.render.ShapeRenderer;
 import prefuse.util.ColorLib;
@@ -77,6 +82,92 @@ public class Example2 {
 		layout.add(new RepaintAction());
 		vis.putAction("color", color);
 		vis.putAction("layout", layout);
+		
+	
+	}
+	private static Graph InOut(){
+		graph.addColumn("Incoming", int.class);
+		graph.addColumn("Outgoing", int.class);
+		graph.addColumn("Total", int.class);
+		graph.addColumn("Samein", int.class);
+		graph.addColumn("Sameout", int.class);
+		graph.addColumn("Diffin", int.class);
+		graph.addColumn("Diffout", int.class);
+		int p = 0,q = 0 ,r = 0;
+		for(int i = 0;i<graph.getNodeCount();i++){
+			Node n = graph.getNode(i);
+			Iterator w = n.inEdges();
+			while(w.hasNext()){
+				w.next();
+				p++;
+			}
+			n.set("Incoming", p);
+			p = 0;
+		}
+		int low =0;
+		for(int j=0;j<graph.getNodeCount();j++){
+			Node n = graph.getNode(j);
+			Iterator a = n.inEdges();
+			while(a.hasNext()){
+				if(((Tuple) a.next()).get("Edgetype").equals("00")||((Tuple) a.next()).get("Edgetype").equals("11")){
+					low++;
+				}
+			}
+			n.set("Samein",low);
+		}
+		
+		int cow =0;
+		for(int j=0;j<graph.getNodeCount();j++){
+			Node n = graph.getNode(j);
+			Iterator a = n.inEdges();
+			while(a.hasNext()){
+				if(((Tuple) a.next()).get("Edgetype").equals("01")||((Tuple) a.next()).get("Edgetype").equals("10")){
+					cow++;
+				}
+			}
+			n.set("Diffin",cow);
+		}
+		
+		int how =0;
+		for(int j=0;j<graph.getNodeCount();j++){
+			Node n = graph.getNode(j);
+			Iterator a = n.outEdges();
+			while(a.hasNext()){
+				if(((Tuple) a.next()).get("Edgetype").equals("01")||((Tuple) a.next()).get("Edgetype").equals("10")){
+					how++;
+				}
+			}
+			n.set("Diffout",how);
+		}
+		
+		int wow =0;
+		for(int j=0;j<graph.getNodeCount();j++){
+			Node n = graph.getNode(j);
+			Iterator a = n.outEdges();
+			while(a.hasNext()){
+				if(((Tuple) a.next()).get("Edgetype").equals("00")||((Tuple) a.next()).get("Edgetype").equals("11")){
+					wow++;
+				}
+			}
+			n.set("Sameout",wow);
+		}
+			for(int j = 0;j<graph.getNodeCount();j++){
+				Node m = graph.getNode(j);
+				Iterator x = m.outEdges();
+				while(x.hasNext()){
+					x.next();
+					q++;
+				}
+				m.set("Outgoing", q);
+				q = 0;
+			}
+			for(int k = 0; k<graph.getNodeCount();k++){
+				Node o = graph.getNode(k);
+			    r = (Integer)o.get("Incoming")+(Integer)o.get("Outgoing");
+			    o.set("Total", r);
+			}
+			return graph;
+	}
 	}
 
-}
+

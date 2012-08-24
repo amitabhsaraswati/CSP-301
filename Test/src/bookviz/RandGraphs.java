@@ -23,15 +23,13 @@ import prefuse.util.ColorLib;
 import prefuse.visual.EdgeItem;
 import prefuse.visual.VisualItem;
 
-public class Example1 {
+public class RandGraphs {
 	private static Graph graph;
 	private static Visualization vis;
 	private static Display d;
 	public static void main(String [] argv) throws IOException{
-		Parser a = new Parser();
-		graph = a.parsebook();
-		Stats se = new Stats();
-		se.edgeratio(graph);
+		Random1 a = new Random1();
+		graph = a.Randcreator();
 		//System.out.println(graph.getEdgeCount());
 		setUpVisualization();
 		setUPRenderers();
@@ -53,7 +51,6 @@ public class Example1 {
 		d.addControlListener(new DragControl());
 		d.addControlListener(new PanControl());
 		d.addControlListener(new ZoomControl());
-		d.addControlListener(new Hover());
 		d.setBackground(Color.BLACK);
 	}
 

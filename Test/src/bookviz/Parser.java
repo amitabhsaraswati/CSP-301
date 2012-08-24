@@ -64,7 +64,8 @@ public class Parser {
 				String value = reader.readLine();
 				StringTokenizer value1 = new StringTokenizer(value, "e ");
 				value1.nextToken();
-				book.set("value",value1.nextToken());
+				String s = value1.nextToken();
+				book.set("value",s.substring(1, 2));
 			}
 			else if (line.equals("  edge")){
 				@SuppressWarnings("unused")
@@ -82,12 +83,12 @@ public class Parser {
                 String mango = (String) (pol.getNode(src)).get("value");
                 String banana = (String) (pol.getNode(tar)).get("value");
                 abc.set("Edgetype", mango+banana );
+                //System.out.println(mango+banana);
 		        }
 			else {
 				continue;
 			}
 		}
-
 		return pol;
 	}
 	@SuppressWarnings("unused")
@@ -161,6 +162,7 @@ public class Parser {
                 String mango = (String) (blog.getNode(src)).get("value");
                 String banana = (String) (blog.getNode(tar)).get("value");
                 abc.set("Edgetype", mango+banana );
+                System.out.println(mango+banana);
 			}
 			else {
 				continue;
