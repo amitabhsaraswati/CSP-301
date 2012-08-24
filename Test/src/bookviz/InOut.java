@@ -1,9 +1,32 @@
 package bookviz;
 
+import java.awt.Color;
+import java.io.IOException;
 import java.util.Iterator;
+
+import javax.swing.JFrame;
+import prefuse.Constants;
+import prefuse.Display;
+import prefuse.Visualization;
+import prefuse.action.ActionList;
+import prefuse.action.CompositeAction;
+import prefuse.action.RepaintAction;
+import prefuse.action.assignment.ColorAction;
+import prefuse.action.assignment.DataColorAction;
+import prefuse.action.layout.RandomLayout;
+import prefuse.action.layout.graph.ForceDirectedLayout;
+import prefuse.activity.Activity;
+import prefuse.controls.DragControl;
+import prefuse.controls.PanControl;
+import prefuse.controls.ZoomControl;
 import prefuse.data.Graph;
 import prefuse.data.Node;
 import prefuse.data.Tuple;
+import prefuse.render.DefaultRendererFactory;
+import prefuse.render.ShapeRenderer;
+import prefuse.util.ColorLib;
+import prefuse.visual.EdgeItem;
+import prefuse.visual.VisualItem;
 
 public class InOut {
 	int p,q,r = 0;
@@ -30,7 +53,8 @@ public class InOut {
 			Node n = g.getNode(j);
 			Iterator a = n.inEdges();
 			while(a.hasNext()){
-				if(a.next().get("Edgetype").equals("00")||a.next().get("Edgetype").equals("11")){
+				EdgeItem b = (EdgeItem) a.next();
+				if(b.get("Edgetype").equals("00")||b.get("Edgetype").equals("11")){
 					low++;
 				}
 			}
@@ -38,11 +62,13 @@ public class InOut {
 		}
 		
 		int cow =0;
+		
 		for(int j=0;j<g.getNodeCount();j++){
 			Node n = g.getNode(j);
 			Iterator a = n.inEdges();
 			while(a.hasNext()){
-				if(a.next().get("Edgetype").equals("01")||a.next().get("Edgetype").equals("10")){
+				EdgeItem b = (EdgeItem) a.next();
+				if(b.get("Edgetype").equals("01")||b.get("Edgetype").equals("10")){
 					cow++;
 				}
 			}
@@ -54,7 +80,8 @@ public class InOut {
 			Node n = g.getNode(j);
 			Iterator a = n.outEdges();
 			while(a.hasNext()){
-				if(a.next().get("Edgetype").equals("01")||a.next().get("Edgetype").equals("10")){
+				EdgeItem b = (EdgeItem) a.next();
+				if(b.get("Edgetype").equals("01")||b.get("Edgetype").equals("10")){
 					how++;
 				}
 			}
@@ -66,7 +93,8 @@ public class InOut {
 			Node n = g.getNode(j);
 			Iterator a = n.outEdges();
 			while(a.hasNext()){
-				if(a.next().get("Edgetype").equals("00")||a.next().get("Edgetype").equals("11")){
+				EdgeItem b = (EdgeItem) a.next();
+				if(b.get("Edgetype").equals("00")||b.get("Edgetype").equals("11")){
 					wow++;
 				}
 			}
