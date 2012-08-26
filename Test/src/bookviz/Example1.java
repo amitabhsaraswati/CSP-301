@@ -35,7 +35,6 @@ public class Example1 {
 		graph = a.parsebook();
 		Stats se = new Stats();
 		se.edgeratio(graph);
-		//System.out.println(graph.getEdgeCount());
 		setUpVisualization();
 		setUPRenderers();
 		setUpActions();
@@ -50,7 +49,7 @@ public class Example1 {
 		vis.run("layout1");
 		}
 
-
+//sets up the display, which is used to display the visualization 
 	private static void setUpDisplay() {
 		d = new Display(vis);
 		d.setSize(720, 500);
@@ -66,8 +65,20 @@ public class Example1 {
 
 
 
-
-	private static void setUpActions() {
+/*sets up the actions which are to be carried out in the visualization such as displaying the nodes of the
+ * graph "pol", colouring nodes of different types differently(3 types) and edges of different types differently 
+ * Legend for Node Colours:
+ * Red - Conservative
+ * Blue - Leftist
+ * Green - Neutral
+ * Legend for Edge Colours:
+ * Red - Conservative to Conservative
+ * Blue - Leftist to Leftist
+ * Green - Neutral to Neutral
+ * Yellow - Conservative to Leftist or vice versa
+ * White - Between Neutral and Conservative/Leftist 
+	
+	*/private static void setUpActions() {
 		int[] palette = {ColorLib.rgb(200, 0, 0), ColorLib.rgb(0,0, 200), ColorLib.rgb(0,  200, 0)}; 
 		DataColorAction fill = new DataColorAction("pol.nodes","value", Constants.NOMINAL, VisualItem.FILLCOLOR, palette);
         int[] palette2 = {ColorLib.rgb(200, 0, 0), ColorLib.rgb(200,200, 0), ColorLib.rgb(200,  200, 200), ColorLib.rgb(200,  200, 0), ColorLib.rgb(0,  0, 200), ColorLib.rgb(200,  200, 200), ColorLib.rgb(200,  200, 200), ColorLib.rgb(200,  200, 200), ColorLib.rgb(0, 200, 0)}; 
@@ -85,13 +96,13 @@ public class Example1 {
 		vis.putAction("layout1", layout1);
 	}
 
-
+//sets up the Renderer
 	private static void setUPRenderers() {
 		ShapeRenderer r = new ShapeRenderer();
 		vis.setRendererFactory(new DefaultRendererFactory(r));
 	}
 
-
+//sets up the visualization to which the graph "pol" is added
 	private static void setUpVisualization() {
 		vis = new Visualization();
 		vis.add("pol", graph);
