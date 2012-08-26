@@ -73,7 +73,7 @@ public class Example2 {
 	private static void setUpActions() {
 		int[] palette = {ColorLib.rgb(200, 200, 200),ColorLib.rgb(200,  0, 0), ColorLib.rgb(0, 0, 200)}; 
 		DataColorAction fill = new DataColorAction("blog.nodes","value", Constants.NOMINAL, VisualItem.FILLCOLOR, palette);
-		int[] palette2 = {ColorLib.rgb(200, 0, 200), ColorLib.rgb(0,  200, 200), ColorLib.rgb(200,  200, 0), ColorLib.rgb(50,  50, 0)}; 
+		int[] palette2 = {ColorLib.rgb(200, 0, 0), ColorLib.rgb(0,  200, 200), ColorLib.rgb(200,  200, 0), ColorLib.rgb(0,  0, 200)}; 
 		DataColorAction ngo = new DataColorAction("blog.edges","Edgetype", Constants.NOMINAL, VisualItem.STROKECOLOR, palette2);
 		ActionList color = new ActionList();
 		color.add(fill);

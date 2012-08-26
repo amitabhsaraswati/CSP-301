@@ -135,9 +135,8 @@ public class Parser {
 		        int no = Integer.parseInt(id1.nextToken());
 		        blogger.set("id",no);
 		        String label = reader.readLine();
-				StringTokenizer label1 = new StringTokenizer(label, "l ");
-				label1.nextToken();
-				blogger.set("label", label1.nextToken());
+		        label = label.replaceAll("label", "");
+				blogger.set("label", label);
 				String value = reader.readLine();
 				StringTokenizer value1 = new StringTokenizer(value, "e ");
 				value1.nextToken();
