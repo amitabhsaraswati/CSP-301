@@ -40,7 +40,7 @@ public class Example2 {
 		setUPRenderers();
 		setUpActions();
 		setUpDisplay();
-		JFrame frame = new JFrame("graph");
+		JFrame frame = new JFrame("Blog Visualization");
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.add(d);
 		frame.pack();
@@ -60,8 +60,9 @@ public class Example2 {
 	}
     
     private static void setUPRenderers() {
-		ShapeRenderer r = new ShapeRenderer();
-		vis.setRendererFactory(new DefaultRendererFactory(r));
+    	RenderersCustom r = new RenderersCustom();
+		DefaultRendererFactory abcd = new DefaultRendererFactory(r);
+		vis.setRendererFactory(abcd);	
 	}
 
 
@@ -75,8 +76,10 @@ public class Example2 {
 		DataColorAction fill = new DataColorAction("blog.nodes","value", Constants.NOMINAL, VisualItem.FILLCOLOR, palette);
 		int[] palette2 = {ColorLib.rgb(200, 0, 0), ColorLib.rgb(0,  200, 200), ColorLib.rgb(200,  200, 0), ColorLib.rgb(0,  0, 200)}; 
 		DataColorAction ngo = new DataColorAction("blog.edges","Edgetype", Constants.NOMINAL, VisualItem.STROKECOLOR, palette2);
+		ColorAction fill1 = new ColorAction("blog.nodes",VisualItem.TEXTCOLOR, ColorLib.rgb(0,0,0));
 		ActionList color = new ActionList();
 		color.add(fill);
+		color.add(fill1);
 		color.add(ngo);
 		ActionList layout1 = new ActionList();
 		layout1.add(new RandomLayout("blog.nodes"));
