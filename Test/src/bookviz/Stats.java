@@ -31,11 +31,11 @@ public class Stats {
 				Iterator<Node> b = n.neighbors();
 				while(b.hasNext()){
 					if (g.getEdge(c, b.next()) == null){
-					p++;
+					p+=2;
 				}
 				else {
-					p++;
-					q++;
+					p+=3;
+					q+=3;
 				}			
 			}
 		}
