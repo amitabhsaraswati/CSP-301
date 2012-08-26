@@ -44,6 +44,7 @@ public class Example1 {
 		frame.setVisible(true);
 		vis.run("color");
 		vis.run("layout");
+		vis.run("layout1");
 		}
 
 
@@ -68,11 +69,14 @@ public class Example1 {
 		ActionList color = new ActionList();
 		color.add(fill);
 		color.add(ngo);
-		ActionList layout = new ActionList(Activity.INFINITY);		
-		layout.add(new ForceDirectedLayout("pol", true));
+		ActionList layout1 = new ActionList();
+		layout1.add(new RandomLayout("pol.nodes"));
+		ActionList layout = new ActionList(Activity.INFINITY, Activity.DEFAULT_STEP_TIME);		
+		layout.add(new ForceDirectedLayout("pol", false));
 		layout.add(new RepaintAction());
 		vis.putAction("color", color);
 		vis.putAction("layout", layout);
+		vis.putAction("layout1", layout1);
 	}
 
 
