@@ -6,12 +6,12 @@ import prefuse.controls.ControlAdapter;
 import prefuse.util.ColorLib;
 import prefuse.visual.NodeItem;
 import prefuse.visual.VisualItem;
-
+//when the mouse goes over a NodeItem then it gets highlighted purple and its neighbors get highlighted white
 public class Highlight extends ControlAdapter {
 	public int temp;
 	public int[] temp2 = new int[1000];
 public void itemEntered(VisualItem item, java.awt.event.MouseEvent e){
-	if (item instanceof NodeItem){
+	if (item instanceof NodeItem){/* */
 NodeItem n = (NodeItem) item;
 temp = n.getFillColor();
 n.setFillColor(ColorLib.rgb(200, 0, 200));
