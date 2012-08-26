@@ -37,7 +37,7 @@ public class Example2 {
     private static Display d;
     public static void main(String[] argv) throws IOException{
     	Parser a = new Parser();
-    	graph = a.parseblog();
+    	graph = a.parseblog();//creates a graph from the input gml file using the parseblog() function of Parser
     	setUpVisualization();
 		setUPRenderers();
 		setUpActions();
@@ -51,6 +51,8 @@ public class Example2 {
 		vis.run("layout");
 		vis.run("layout1");
     	}
+    
+  //sets up the display, which is used to display the visualization 
     private static void setUpDisplay() {
 		d = new Display(vis);
 		d.setSize(720, 500);
@@ -63,18 +65,29 @@ public class Example2 {
        	d.setBackground(Color.BLACK);
 	}
     
+  //sets up the Renderers for the visualization
     private static void setUPRenderers() {
     	RenderersCustom r = new RenderersCustom();
 		DefaultRendererFactory abcd = new DefaultRendererFactory(r);
 		vis.setRendererFactory(abcd);	
 	}
 
-
+  //sets up the visualization to which the graph "blog" is added
 	private static void setUpVisualization() {
 		vis = new Visualization();
 		vis.add("blog", graph);
 	}
 	
+	/*sets up the actions which are to be carried out in the visualization such as displaying the nodes of the
+	 * graph "pol", colouring nodes of different types differently(2 types) and edges of different types differently 
+		Legend for Node Colours:
+		Red - Left Wing
+		Blue - Right Wing
+		Legend for Edge colours:
+		 Red - Left to Left
+		 Blue - Right to Right
+		 Cyan - Left to Right
+		 Yellow - Right to Left */
 	private static void setUpActions() {
 		int[] palette = {ColorLib.rgb(200, 200, 200),ColorLib.rgb(200,  0, 0), ColorLib.rgb(0, 0, 200)}; 
 		DataColorAction fill = new DataColorAction("blog.nodes","value", Constants.NOMINAL, VisualItem.FILLCOLOR, palette);
@@ -95,89 +108,6 @@ public class Example2 {
 		vis.putAction("layout1", layout1);
 	
 	}
-	private static Graph InOut(){
-		graph.addColumn("Incoming", int.class);
-		graph.addColumn("Outgoing", int.class);
-		graph.addColumn("Total", int.class);
-		graph.addColumn("Samein", int.class);
-		graph.addColumn("Sameout", int.class);
-		graph.addColumn("Diffin", int.class);
-		graph.addColumn("Diffout", int.class);
-		int p = 0,q = 0 ,r = 0;
-		for(int i = 0;i<graph.getNodeCount();i++){
-			Node n = graph.getNode(i);
-			Iterator w = n.inEdges();
-			while(w.hasNext()){
-				w.next();
-				p++;
-			}
-			n.set("Incoming", p);
-			p = 0;
 		}
-		int low =0;
-		for(int j=0;j<graph.getNodeCount();j++){
-			Node n = graph.getNode(j);
-			Iterator a = n.inEdges();
-			while(a.hasNext()){
-				if(((Tuple) a.next()).get("Edgetype").equals("00")||((Tuple) a.next()).get("Edgetype").equals("11")){
-					low++;
-				}
-			}
-			n.set("Samein",low);
-		}
-		
-		int cow =0;
-		for(int j=0;j<graph.getNodeCount();j++){
-			Node n = graph.getNode(j);
-			Iterator a = n.inEdges();
-			while(a.hasNext()){
-				if(((Tuple) a.next()).get("Edgetype").equals("01")||((Tuple) a.next()).get("Edgetype").equals("10")){
-					cow++;
-				}
-			}
-			n.set("Diffin",cow);
-		}
-		
-		int how =0;
-		for(int j=0;j<graph.getNodeCount();j++){
-			Node n = graph.getNode(j);
-			Iterator a = n.outEdges();
-			while(a.hasNext()){
-				if(((Tuple) a.next()).get("Edgetype").equals("01")||((Tuple) a.next()).get("Edgetype").equals("10")){
-					how++;
-				}
-			}
-			n.set("Diffout",how);
-		}
-		
-		int wow =0;
-		for(int j=0;j<graph.getNodeCount();j++){
-			Node n = graph.getNode(j);
-			Iterator a = n.outEdges();
-			while(a.hasNext()){
-				if(((Tuple) a.next()).get("Edgetype").equals("00")||((Tuple) a.next()).get("Edgetype").equals("11")){
-					wow++;
-				}
-			}
-			n.set("Sameout",wow);
-		}
-			for(int j = 0;j<graph.getNodeCount();j++){
-				Node m = graph.getNode(j);
-				Iterator x = m.outEdges();
-				while(x.hasNext()){
-					x.next();
-					q++;
-				}
-				m.set("Outgoing", q);
-				q = 0;
-			}
-			for(int k = 0; k<graph.getNodeCount();k++){
-				Node o = graph.getNode(k);
-			    r = (Integer)o.get("Incoming")+(Integer)o.get("Outgoing");
-			    o.set("Total", r);
-			}
-			return graph;
-	}
-	}
 
 

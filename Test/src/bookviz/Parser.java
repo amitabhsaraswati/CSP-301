@@ -10,6 +10,7 @@ import prefuse.data.Edge;
 import prefuse.data.Graph;
 import prefuse.data.Node;
 
+//This class is used to take input from gml files.
 public class Parser {
 	Graph pol;
 	Graph blog;

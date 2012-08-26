@@ -32,7 +32,7 @@ public class Example1 {
 	private static Display d;
 	public static void main(String [] argv) throws IOException{
 		Parser a = new Parser();
-		graph = a.parsebook();
+		graph = a.parsebook();//creates a graph from the gml file that is input using parsebook() function of Parser.java
 		Stats se = new Stats();
 		se.edgeratio(graph);
 		setUpVisualization();
@@ -69,14 +69,14 @@ public class Example1 {
  * graph "pol", colouring nodes of different types differently(3 types) and edges of different types differently 
  * Legend for Node Colours:
  * Red - Conservative
- * Blue - Leftist
+ * Blue - Liberal
  * Green - Neutral
  * Legend for Edge Colours:
  * Red - Conservative to Conservative
- * Blue - Leftist to Leftist
+ * Blue - Liberal to Liberal
  * Green - Neutral to Neutral
- * Yellow - Conservative to Leftist or vice versa
- * White - Between Neutral and Conservative/Leftist 
+ * Yellow - Conservative to Liberal or vice versa
+ * White - Between Neutral and Conservative/Liberal
 	
 	*/private static void setUpActions() {
 		int[] palette = {ColorLib.rgb(200, 0, 0), ColorLib.rgb(0,0, 200), ColorLib.rgb(0,  200, 0)}; 
@@ -98,7 +98,7 @@ public class Example1 {
 		vis.putAction("layout1", layout1);
 	}
 
-//sets up the Renderers
+//sets up the Renderers for the visualization
 	private static void setUPRenderers() {
 		RenderersCustom r = new RenderersCustom();
 		DefaultRendererFactory abcd = new DefaultRendererFactory(r);

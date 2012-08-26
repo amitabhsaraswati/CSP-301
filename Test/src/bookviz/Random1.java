@@ -14,7 +14,7 @@ public class Random1 {
 	String[] u = new String [] {"n","c"};
 	String[] v = new String [] {"l","c"};
 	public Graph Randcreator(){
-	g = new Graph(true);
+	g = new Graph(false);
 	g.addColumn("id", int.class);
 	g.addColumn("value", String.class);
 	g.addColumn("Edgetype", String.class);

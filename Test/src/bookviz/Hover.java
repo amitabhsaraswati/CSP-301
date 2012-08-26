@@ -26,7 +26,8 @@ public class Hover extends ControlAdapter implements Control{
 	jpub.show(e.getComponent(),(int) item.getX(),
 	(int) item.getY());
 		}
-	else if(item instanceof EdgeItem){/*If the item is a EdgeItem then the labels, IDs and orientations of its source and target nodes are displayed */
+	else if(item instanceof EdgeItem){
+		/*If the item is a EdgeItem then the labels, IDs and orientations of its source and target nodes are displayed */
 		String label1 = (String) ((EdgeItem) item).getSourceItem().get("label");
 		String label2 = (String) ((EdgeItem) item).getTargetItem().get("label");
 		
