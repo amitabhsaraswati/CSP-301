@@ -18,7 +18,9 @@ import prefuse.action.layout.graph.ForceDirectedLayout;
 import prefuse.activity.Activity;
 import prefuse.controls.DragControl;
 import prefuse.controls.PanControl;
+import prefuse.controls.WheelZoomControl;
 import prefuse.controls.ZoomControl;
+import prefuse.controls.ZoomToFitControl;
 import prefuse.data.Graph;
 import prefuse.data.Node;
 import prefuse.data.Tuple;
@@ -56,6 +58,9 @@ public class Example2 {
 		d.addControlListener(new PanControl());
 		d.addControlListener(new ZoomControl());
 		d.addControlListener(new Hover());
+	    d.addControlListener(new WheelZoomControl());
+        d.addControlListener(new ZoomToFitControl());
+        d.addControlListener(new Highlight());
 		d.setBackground(Color.BLACK);
 	}
     
