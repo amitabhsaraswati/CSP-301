@@ -28,8 +28,12 @@ public class RandGraphs {
 	private static Visualization vis;
 	private static Display d;
 	public static void main(String [] argv) throws IOException{
-		Random1 a = new Random1();
-		graph = a.Randcreator();
+		for (int i = 0; i<50; i++){
+			Random1 a = new Random1();
+			graph = a.Randcreator();
+			Stats se = new Stats();
+			se.edgeratio(graph);
+		}
 		//System.out.println(graph.getEdgeCount());
 		setUpVisualization();
 		setUPRenderers();
