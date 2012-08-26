@@ -60,8 +60,7 @@ public class Example2 {
 		d.addControlListener(new Hover());
 	    d.addControlListener(new WheelZoomControl());
         d.addControlListener(new ZoomToFitControl());
-        d.addControlListener(new Highlight());
-		d.setBackground(Color.BLACK);
+       	d.setBackground(Color.BLACK);
 	}
     
     private static void setUPRenderers() {
