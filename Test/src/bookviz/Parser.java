@@ -162,7 +162,7 @@ public class Parser {
                 String mango = (String) (blog.getNode(src)).get("value");
                 String banana = (String) (blog.getNode(tar)).get("value");
                 abc.set("Edgetype", mango+banana );
-                System.out.println(mango+banana);
+              //  System.out.println(mango+banana);
 			}
 			else {
 				continue;
