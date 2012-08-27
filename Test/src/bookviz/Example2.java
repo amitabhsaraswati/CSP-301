@@ -38,6 +38,8 @@ public class Example2 {
     public static void main(String[] argv) throws IOException{
     	Parser a = new Parser();
     	graph = a.parseblog();//creates a graph from the input gml file using the parseblog() function of Parser
+    	Stats se = new Stats();
+    	//se.OtherNodes(graph);
     	setUpVisualization();
 		setUPRenderers();
 		setUpActions();

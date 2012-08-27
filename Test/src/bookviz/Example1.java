@@ -32,7 +32,10 @@ public class Example1 {
 	private static Display d;
 	public static void main(String [] argv) throws IOException{
 		Parser a = new Parser();
+		Stats h = new Stats();
 		graph = a.parsebook();//creates a graph from the gml file that is input using parsebook() function of Parser.java
+		//h.linkage(graph);
+		//h.OtherNodes(graph);
 		setUpVisualization();
 		setUPRenderers();
 		setUpActions();
