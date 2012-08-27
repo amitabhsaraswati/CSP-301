@@ -100,7 +100,7 @@ public class Example2 {
 		color.add(ngo);
 		ActionList layout1 = new ActionList();
 		layout1.add(new RandomLayout("blog.nodes"));
-		ActionList layout = new ActionList(Activity.INFINITY);		
+		ActionList layout = new ActionList((long) 30000);	// the movement of nodes is stopped after 30 seconds to make it easier to click on nodes and edges	
 		layout.add(new ForceDirectedLayout("blog", false));
 		layout.add(new RepaintAction());
 		vis.putAction("color", color);
