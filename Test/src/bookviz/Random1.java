@@ -5,6 +5,14 @@ import prefuse.data.Edge;
 import prefuse.data.Graph;
 import prefuse.data.Node;
 
+/* This class is used to create a random graph equivalent to the one
+ * given in the polbooks.gml file. We basically, create same number of
+ * liberal, neutral and conservative nodes, and then, randomly form edges
+ * between them. Total number of edges in the given graph, and the random
+ * graph created here, is same.
+ */
+
+
 public class Random1 {
 	Graph g;
 	int p,q,r;
@@ -18,6 +26,9 @@ public class Random1 {
 	g.addColumn("id", int.class);
 	g.addColumn("value", String.class);
 	g.addColumn("Edgetype", String.class);
+	
+	//This loop is used to create the nodes of the random graph.
+	//We ensure same number of same type of nodes as in the given data.
 	for(int i=0;i<105;i++){
 		Node cook =g.addNode();
 		cook.set("id",i);
@@ -59,6 +70,8 @@ public class Random1 {
 			q++;
 		}
 	}
+	
+	//This for loop creates edges between all the nodes of the random graph.
 	for(int j=0;j<441;j++){
 		int x = rand.nextInt(105);
 		int y = rand.nextInt(105);

@@ -31,12 +31,10 @@ public class RandGraphs {
 	private static Display d;
 	public static void main(String [] argv) throws IOException{
 		for (int i = 0; i<50; i++){
-			//creates 50 random graphs with same number of nodes of each type as in polbooks.gml
+			//creates random graphs with same number of nodes of each type as in polbooks.gml, as well as same number of total edges
 			Random1 a = new Random1();
-			graph = a.Randcreator();
-		//computes the ratio of sum of no. of edges of same type to the total no. of edges i.e, (ll + cc + nn)/total edges 
+			graph = a.Randcreator(); 
 			Stats se = new Stats();
-			se.edgeratio(graph);
 		}
 		//System.out.println(graph.getEdgeCount());
 		setUpVisualization();

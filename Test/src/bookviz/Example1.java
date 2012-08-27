@@ -33,8 +33,6 @@ public class Example1 {
 	public static void main(String [] argv) throws IOException{
 		Parser a = new Parser();
 		graph = a.parsebook();//creates a graph from the gml file that is input using parsebook() function of Parser.java
-		Stats se = new Stats();
-		se.edgeratio(graph);
 		setUpVisualization();
 		setUPRenderers();
 		setUpActions();
