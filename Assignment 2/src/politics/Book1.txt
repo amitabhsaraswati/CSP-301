@@ -1,0 +1,553 @@
+MP name	State	Political party	Educational qualifications	Age	Attendance
+A. Ganeshamurthi	Tamil Nadu	Marumalarchi Dravida Munnetra Kazhagam	Graduate	65	72%
+A.K.S. Vijayan	Tamil Nadu	Dravida Munnetra Kazhagam	Graduate	50	54%
+A.T. Nana Patil	Maharashtra	Bharatiya Janata Party	Graduate	51	83%
+Abdul Mannan Hossain	West Bengal	Indian National Congress	Graduate	59	59%
+Abdul Rahman	Tamil Nadu	Dravida Munnetra Kazhagam	Post Graduate	53	66%
+Abu Hasem Khan Choudhury	West Bengal	Indian National Congress	Graduate	74	77%
+Adagooru H Vishwanath	Karnataka	Indian National Congress	Graduate	62	66%
+Adhi Sankar	Tamil Nadu	Dravida Munnetra Kazhagam	Graduate	55	54%
+Adhir Ranjan Chowdhury	West Bengal	Indian National Congress	Under Matric	56	82%
+Agatha K. Sangma	Meghalaya	Nationalist Congress Party	Post Graduate	32	N/A
+Ajay Kumar	Jharkhand	Jharkhand Vikas Morcha (Prajatantrik)	Professional Graduate	50	77%
+Ajay Maken	Delhi	Indian National Congress	Graduate	48	N/A
+Ajit Singh	Uttar Pradesh	Rashtriya Lok Dal	Post Graduate	73	44%
+Akhilesh Yadav	Uttar Pradesh	Samajwadi Party	Post Graduate	39	53%
+Amarnath Pradhan	Orissa	Indian National Congress	Graduate	54	84%
+Ambica Banerjee	West Bengal	All India Trinamool Congress	Graduate	84	63%
+Anand Prakash Paranjpe	Maharashtra	Shiv Sena	Post Graduate	39	64%
+Anandrao Adsul	Maharashtra	Shiv Sena	Graduate	65	76%
+Anant Gangaram Geete	Maharashtra	Shiv Sena	Matric	61	70%
+Anant Kumar Hegde	Karnataka	Bharatiya Janata Party	Inter/ Higher Secondary	44	80%
+Ananth Kumar	Karnataka	Bharatiya Janata Party	Graduate	53	87%
+Anantha Venkatarami Reddy	Andhra Pradesh	Indian National Congress	Post Graduate	56	77%
+Andimuthu Raja	Tamil Nadu	Dravida Munnetra Kazhagam	Post Graduate	49	14%
+Anirudhan Sampath	Kerala	Communist Party of India (Marxist)	Post Graduate	50	78%
+Annu Tandon	Uttar Pradesh	Indian National Congress	Graduate	54	94%
+Anto Antony	Kerala	Indian National Congress	Graduate	55	88%
+Anup Kumar Saha	West Bengal	Communist Party of India (Marxist)	Doctorate	56	90%
+Anurag Singh Thakur	Himachal Pradesh	Bharatiya Janata Party	Graduate	37	83%
+Arjun Charan Sethi	Orissa	Biju Janata Dal	Post Graduate	70	89%
+Arjun Munda	Jharkhand	Bharatiya Janata Party	Graduate	44	43%
+Arjun Ram Meghwal	Rajasthan	Bharatiya Janata Party	Post Graduate	58	99%
+Arjun Roy	Bihar	Janata Dal (United)	Doctorate	40	91%
+Arun Subhashchandra Yadav	Madhya Pradesh	Indian National Congress	Graduate	38	74%
+Aruna Kumar Vundavalli	Andhra Pradesh	Indian National Congress	Graduate	58	100%
+Arvind Kumar Chaudhary	Uttar Pradesh	Bahujan Samaj Party	Inter/ Higher Secondary	48	95%
+Arvind Kumar Sharma	Haryana	Indian National Congress	Post Graduate	48	74%
+Asaduddin Owaisi	Andhra Pradesh	All India Majlis-E-Ittehadul Muslimmen	Graduate	43	68%
+Ashok Argal	Madhya Pradesh	Bharatiya Janata Party	Inter/ Higher Secondary	43	92%
+Ashok Kumar Rawat	Uttar Pradesh	Bahujan Samaj Party	Post Graduate	36	85%
+Ashok Tanwar	Haryana	Indian National Congress	Post Graduate	36	84%
+Ashwamedh Devi	Bihar	Janata Dal (United)	Under Matric	44	89%
+Asrarul Haque Mohammad	Bihar	Indian National Congress	Post Graduate	70	94%
+Avtar Singh Bhadana	Haryana	Indian National Congress	Under Matric	54	50%
+Awale Jaywant Gangaram	Maharashtra	Indian National Congress	Inter/ Higher Secondary	72	91%
+Babu Lal Marandi	Jharkhand	Jharkhand Vikas Morcha (Prajatantrik)	Graduate	54	29%
+Badri Ram Jakhar	Rajasthan	Indian National Congress	Under Matric	60	89%
+Badruddin Ajmal	Assam	Assam United Democratic Front	Post Graduate	62	52%
+Baidyanath Prasad Mahto	Bihar	Janata Dal (United)	Matric	65	91%
+Baijayant Jay Panda	Orissa	Biju Janata Dal	Graduate	48	63%
+Baju Ban Riyan	Tripura	Communist Party of India (Marxist)	Graduate	71	84%
+Bal Kumar Patel	Uttar Pradesh	Samajwadi Party	Inter/ Higher Secondary	48	84%
+Baliram	Uttar Pradesh	Bahujan Samaj Party	Doctorate	58	93%
+Baliram Kashyap	Chhattisgarh	Bharatiya Janata Party	Under Matric	76	1%
+Balkrishna Khanderao Shukla	Gujarat	Bharatiya Janata Party	Post Graduate	49	70%
+Bansagopal Chowdhury	West Bengal	Communist Party of India (Marxist)	Graduate	52	69%
+Bapiraju Kanumuri	Andhra Pradesh	Indian National Congress	Inter/ Higher Secondary	65	90%
+Basori Singh Masram	Madhya Pradesh	Indian National Congress	Under Matric	66	85%
+Basudeb Acharia	West Bengal	Communist Party of India (Marxist)	Post Graduate	70	88%
+Beni Prasad Verma	Uttar Pradesh	Indian National Congress	Graduate	71	99%
+Bhajan Lal	Haryana	Haryana Janhit Congress	Inter/ Higher Secondary	81	39%
+Bhakta Charan Das	Orissa	Indian National Congress	Graduate	53	89%
+Bharat Ram Meghwal	Rajasthan	Indian National Congress	Graduate	56	91%
+Bharatsinh Madhavsinh Solanki	Gujarat	Indian National Congress	Graduate	58	N/A
+Bhartruhari Mahtab	Orissa	Biju Janata Dal	Post Graduate	55	93%
+Bhavana Pundlikrao Gawali Patil	Maharashtra	Shiv Sena	Graduate	40	69%
+"Bhismashankar, Alias Kushal Tiwari"	Uttar Pradesh	Bahujan Samaj Party	Inter/ Higher Secondary	51	79%
+Bhola Singh	Bihar	Bharatiya Janata Party	Doctorate	77	94%
+Bhoopendra Singh	Madhya Pradesh	Bharatiya Janata Party	Graduate	52	77%
+Bhudeo Choudhary	Bihar	Janata Dal (United)	Graduate	52	87%
+Bibhu Prasad Tarai	Orissa	Communist Party of India	Post Graduate	48	83%
+Bijoy Krishna Handique	Assam	Indian National Congress	Post Graduate	77	89%
+Bijoya Chakravarty	Assam	Bharatiya Janata Party	Post Graduate	72	85%
+Biren Singh Engti	Assam	Indian National Congress	Post Graduate	67	95%
+Bishnu Pada Ray	Andaman and Nicobar Islands	Bharatiya Janata Party	Graduate	62	77%
+Brij Bhushan Sharan Singh	Uttar Pradesh	Samajwadi Party	Post Graduate	55	86%
+C. L. Ruala	Mizoram	Indian National Congress	Post Graduate	76	97%
+C. M. Chang	Nagaland	Nagaland People's Front	Graduate	69	92%
+C. P. Joshi	Rajasthan	Indian National Congress	Doctorate	62	N/A
+C. R. Patil	Gujarat	Bharatiya Janata Party	Certificate Course	57	84%
+C. Rajendran	Tamil Nadu	All India Anna Dravida Munnetra Kazhagam	Graduate	52	71%
+C. Sivasami	Tamil Nadu	All India Anna Dravida Munnetra Kazhagam	Post Graduate	55	69%
+Chandra Sekhar Kalva Kuntla Rao	Andhra Pradesh	Telangana Rashtra Samithi	Post Graduate	58	10%
+Chandrakant Bhaurao Khaire	Maharashtra	Shiv Sena	Graduate	60	69%
+Chandresh Kumari Katoch	Rajasthan	Indian National Congress	Under Graduate	68	78%
+Chandu Lal Sahu	Chhattisgarh	Bharatiya Janata Party	Graduate	53	83%
+Charan Das Mahant	Chhattisgarh	Indian National Congress	Doctorate	57	93%
+Charles Dias		Indian National Congress	Doctorate	62	99%
+Chaudhary Lal Singh	Jammu and Kashmir	Indian National Congress	Graduate	53	87%
+Chinta Mohan	Andhra Pradesh	Indian National Congress	Graduate	57	78%
+Choudhury Mohan Jatua	West Bengal	All India Trinamool Congress	Post Graduate	74	N/A
+D. Napoleon	Tamil Nadu	Dravida Munnetra Kazhagam	Graduate	48	N/A
+D.B. Chandre Gowda	Karnataka	Bharatiya Janata Party	Post Graduate	76	61%
+D.V. Sadananda Gowda	Karnataka	Bharatiya Janata Party	Graduate	59	42%
+Daggubati Purandeswari	Andhra Pradesh	Indian National Congress	Graduate	53	N/A
+Danapal Venugopal	Tamil Nadu	Dravida Munnetra Kazhagam	Inter/ Higher Secondary	80	64%
+Dara Singh Chauhan	Uttar Pradesh	Bahujan Samaj Party	Graduate	49	92%
+Darshana Vikram Jardosh	Gujarat	Bharatiya Janata Party	Graduate	51	90%
+Datta Raghobaji Meghe	Maharashtra	Indian National Congress	Graduate	75	88%
+Davidson J. Helen	Tamil Nadu	Dravida Munnetra Kazhagam	Post Graduate	41	78%
+Dayanidhi Maran	Tamil Nadu	Dravida Munnetra Kazhagam	Graduate	45	69%
+Deepa Dashmunsi	West Bengal	Indian National Congress	Post Graduate	51	79%
+Deepender Singh Hooda	Haryana	Indian National Congress	Post Graduate	34	79%
+Deoraj Singh Patel	Madhya Pradesh	Bahujan Samaj Party	Post Graduate	43	88%
+Devendra Nagpal	Uttar Pradesh	Rashtriya Lok Dal	Graduate	41	55%
+Devidhan Besra	Jharkhand	Bharatiya Janata Party	Matric	72	68%
+Devji Patel	Rajasthan	Bharatiya Janata Party	Matric	35	79%
+Dhananjay Singh	Uttar Pradesh	Bahujan Samaj Party	Post Graduate	37	66%
+Dharmendra Yadav	Uttar Pradesh	Samajwadi Party	Post Graduate	33	76%
+Dhruva Narayana Rangaswamy	Karnataka	Indian National Congress	Post Graduate	51	81%
+Digvijay Singh	Bihar	Independent	Post Graduate	56	77%
+Dilip Kumar Mansukhlal Gandhi	Maharashtra	Bharatiya Janata Party	Matric	61	67%
+Dilip Singh Ju Dev	Chhattisgarh	Bharatiya Janata Party	Post Graduate	70	60%
+Dimple Yadav	Uttar Pradesh	Samajwadi Party	Graduate	34	37%
+Dinesh Chandra Yadav	Bihar	Janata Dal (United)	Diploma Course	62	92%
+Dinesh Kashyap	Chhattisgarh	Bharatiya Janata Party	Others	42	56%
+Dinesh Trivedi	West Bengal	All India Trinamool Congress	Post Graduate	62	59%
+Dinsha J. Patel	Gujarat	Indian National Congress	Matric	75	N/A
+Dip Gogoi	Assam	Indian National Congress	Graduate	60	79%
+Dudhgaonkar Ganeshrao Nagorao	Maharashtra	Shiv Sena	Graduate	67	90%
+Dushyant Singh	Rajasthan	Bharatiya Janata Party	Post Graduate	39	78%
+E. Ahamed	Kerala	Muslim League Kerala State Committee	Graduate	74	N/A
+E. T. Mohammed Basheer	Kerala	Muslim League Kerala State Committee	Inter/ Higher Secondary	66	77%
+E.G. Sugavanam	Tamil Nadu	Dravida Munnetra Kazhagam	Diploma Course	54	56%
+Eknath Mahadeo Gaikwad	Maharashtra	Indian National Congress	Under Graduate	72	98%
+Farooq Abdullah	Jammu and Kashmir	Jammu and Kashmir National Conference	Graduate	74	N/A
+Feroze Varun Gandhi	Uttar Pradesh	Bharatiya Janata Party	Graduate	32	70%
+Francisco Sardinha	Goa	Indian National Congress	Graduate	66	94%
+G.V. Harsha Kumar	Andhra Pradesh	Indian National Congress	Post Graduate	53	81%
+Gaddam Vivekanand	Andhra Pradesh	Indian National Congress	Graduate	54	66%
+Gadhvi Mukeshkumar Bhairavdanji	Gujarat	Indian National Congress	Graduate	49	83%
+Gajanan Dharmshi Babar	Maharashtra	Shiv Sena	Under Matric	69	70%
+Gajendra Singh Rajukhedi	Madhya Pradesh	Indian National Congress	Graduate	47	85%
+Ganesh Singh	Madhya Pradesh	Bharatiya Janata Party	Post Graduate	50	83%
+Gangasandra Siddappa Basavaraj	Karnataka	Bharatiya Janata Party	Graduate	71	75%
+Ghansyam Anuragi	Uttar Pradesh	Samajwadi Party	Post Graduate	39	94%
+Girija Vyas	Rajasthan	Indian National Congress	Doctorate	66	89%
+Gobinda Chandra Naskar	West Bengal	All India Trinamool Congress	Post Graduate	71	79%
+Gopal Singh Shekhawat	Rajasthan	Indian National Congress	Graduate	61	89%
+Gorakh Prasad Jaiswal	Uttar Pradesh	Bahujan Samaj Party	Matric	73	85%
+Goraknath Pandey	Uttar Pradesh	Bahujan Samaj Party	Post Graduate	61	95%
+Govind Prasad Mishra	Madhya Pradesh	Bharatiya Janata Party	Graduate	63	94%
+Gowdar Mallikarjunappa Siddeswara	Karnataka	Bharatiya Janata Party	Matric	60	61%
+Gurudas Dasgupta	West Bengal	Communist Party of India	Post Graduate	75	87%
+Gurudas Kamat	Maharashtra	Indian National Congress	Post Graduate	57	N/A
+H.D. Devegowda	Karnataka	Janata Dal (Secular)	Diploma Course	79	69%
+H.D. Kumaraswamy	Karnataka	Janata Dal (Secular)	Graduate	52	37%
+Hamdullah Sayeed	Lakshadweep	Indian National Congress	Graduate	30	84%
+Hansraj Gangaram Ahir	Maharashtra	Bharatiya Janata Party	Inter/ Higher Secondary	57	73%
+Hari Manjhi	Bihar	Bharatiya Janata Party	Under Matric	49	95%
+Haribhau Madhav Jawale	Maharashtra	Bharatiya Janata Party	Graduate	59	84%
+Harin Pathak	Gujarat	Bharatiya Janata Party	Graduate	65	86%
+Harischandra Deoram Chavan	Maharashtra	Bharatiya Janata Party	Graduate	60	81%
+Harish Choudhary	Rajasthan	Indian National Congress	Post Graduate	42	89%
+Harish Rawat	Uttarakhand	Indian National Congress	Graduate	64	N/A
+Harsh Vardhan	Uttar Pradesh	Indian National Congress	Graduate	64	81%
+Harsimrat Kaur Badal	Punjab	Shiromani Akali Dal	Graduate	46	76%
+Hassan Khan	Jammu and Kashmir	Independent	Graduate	72	94%
+Hemanand Biswal	Orissa	Indian National Congress	Inter/ Higher Secondary	72	88%
+Hukamdeo Narayan Yadav	Bihar	Bharatiya Janata Party	Graduate	72	95%
+Ijyaraj Singh	Rajasthan	Indian National Congress	Post Graduate	47	87%
+Inder Singh Namdhari	Jharkhand	Independent	Graduate	70	90%
+Inderjit Singh Rao	Haryana	Indian National Congress	Graduate	62	81%
+Ingrid Mcleod		Independent	Graduate	44	81%
+Ismail Hussain	Assam	Indian National Congress	Post Graduate	62	92%
+J. Shantha	Karnataka	Bharatiya Janata Party	Inter/ Higher Secondary	39	58%
+J.M. Aaron Rashid	Tamil Nadu	Indian National Congress	Inter/ Higher Secondary	62	65%
+Jadhav Baliram Sukur	Maharashtra	Bahujan Vikas Aaghadi	Under Matric	56	93%
+Jadhav Prataprao Ganpatrao	Maharashtra	Shiv Sena	Under Graduate	51	63%
+Jagada Nand Singh	Bihar	Rashtriya Janata Dal	Graduate	70	94%
+Jagdambika Pal	Uttar Pradesh	Indian National Congress	Post Graduate	61	93%
+Jagdish Sharma	Bihar	Janata Dal (United)	Graduate	61	83%
+Jagdish Singh Rana	Uttar Pradesh	Bahujan Samaj Party	Graduate	58	84%
+Jagdish Thakor	Gujarat	Indian National Congress	Matric	55	63%
+Jai Prakash Agarwal	Delhi	Indian National Congress	Graduate	67	98%
+Jainarain Prasad Nishad	Bihar	Janata Dal (United)	Inter/ Higher Secondary	81	82%
+Jaipal Sudini Reddy	Andhra Pradesh	Indian National Congress	Post Graduate	70	N/A
+Janardhana Swamy	Karnataka	Bharatiya Janata Party	Post Graduate	44	63%
+Jaswant Singh	West Bengal	Bharatiya Janata Party	Graduate	74	74%
+Jayant Chaudhary	Uttar Pradesh	Rashtriya Lok Dal	Post Graduate	33	84%
+Jayaram Pangi	Orissa	Biju Janata Dal	Inter/ Higher Secondary	57	72%
+Jayshreeben Kanubhai Patel	Gujarat	Bharatiya Janata Party	Matric	53	87%
+Jeetendra Singh Bundela	Madhya Pradesh	Bharatiya Janata Party	Post Graduate	53	90%
+Jhansi Botcha Lakshmi	Andhra Pradesh	Indian National Congress	Doctorate	48	91%
+Jitender Singh Malik	Haryana	Indian National Congress	Graduate	42	63%
+Jitendra Singh	Rajasthan	Indian National Congress	Graduate	41	69%
+Jitin Prasada	Uttar Pradesh	Indian National Congress	Post Graduate	38	N/A
+Jose K. Mani	Kerala	Kerala Congress (M)	Post Graduate	47	83%
+Joseph Toppo	Assam	Asom Gana Parishad	Inter/ Higher Secondary	58	74%
+Jyoti Dhurve	Madhya Pradesh	Bharatiya Janata Party	Post Graduate	46	85%
+Jyoti Mirdha	Rajasthan	Indian National Congress	Graduate	40	93%
+Jyotiraditya Madhavrao Scindia	Madhya Pradesh	Indian National Congress	Post Graduate	41	N/A
+K. C. Venugopal	Kerala	Indian National Congress	Post Graduate	49	84%
+K. D. Deshmukh	Madhya Pradesh	Bharatiya Janata Party	Graduate	63	69%
+K. Jayaprakash Hegde	Karnataka	Indian National Congress	Graduate	52	98%
+K. Jayasurya Prakash Reddy	Andhra Pradesh	Indian National Congress	Graduate	60	56%
+K. Murugesan Anandan	Tamil Nadu	All India Anna Dravida Munnetra Kazhagam	Under Graduate	60	89%
+K. P. Dhanapalan	Kerala	Indian National Congress	Graduate	62	100%
+K. Sugumar	Tamil Nadu	All India Anna Dravida Munnetra Kazhagam	Graduate	51	84%
+K.C. Singh Baba	Uttarakhand	Indian National Congress	Inter/ Higher Secondary	65	63%
+K.H. Muniyappa	Karnataka	Indian National Congress	Graduate	64	N/A
+K.V. Thomas	Kerala	Indian National Congress	Post Graduate	66	N/A
+Kabindra Purkayastha	Assam	Bharatiya Janata Party	Post Graduate	80	89%
+Kabir Suman	West Bengal	All India Trinamool Congress	Graduate	62	34%
+Kadir Rana	Uttar Pradesh	Bahujan Samaj Party	Under Matric	50	53%
+Kailash Joshi	Madhya Pradesh	Bharatiya Janata Party	Matric	83	84%
+Kaisar Jahan	Uttar Pradesh	Bahujan Samaj Party	Under Matric	38	58%
+Kakoli Ghosh Dastidar	West Bengal	All India Trinamool Congress	Post Graduate	52	69%
+Kalikesh Narayan Singh Deo	Orissa	Biju Janata Dal	Graduate	38	69%
+Kalyan Banerjee	West Bengal	All India Trinamool Congress	Graduate	55	72%
+Kalyan Singh	Uttar Pradesh	Independent	Graduate	80	46%
+Kamal Kishor	Uttar Pradesh	Indian National Congress	Graduate	56	95%
+Kamal Nath	Madhya Pradesh	Indian National Congress	Graduate	65	N/A
+Kameshwar Baitha	Jharkhand	Jharkhand Mukti Morcha	Matric	56	35%
+Kamla Devi Patle	Chhattisgarh	Bharatiya Janata Party	Under Graduate	46	74%
+Kamlesh Balmiki	Uttar Pradesh	Samajwadi Party	Under Matric	59	85%
+Kamlesh Paswan	Uttar Pradesh	Bharatiya Janata Party	Inter/ Higher Secondary	36	85%
+Kantilal Bhuria	Madhya Pradesh	Indian National Congress	Post Graduate	62	53%
+Kapil Muni Karwariya	Uttar Pradesh	Bahujan Samaj Party	Graduate	45	81%
+Kapil Sibal	Delhi	Indian National Congress	Post Graduate	64	N/A
+Kariya Munda	Jharkhand	Bharatiya Janata Party	Post Graduate	76	N/A
+Katti Ramesh Vishwanath	Karnataka	Bharatiya Janata Party	Under Graduate	47	73%
+Kaushalendra Kumar	Bihar	Janata Dal (United)	Inter/ Higher Secondary	54	97%
+Kavuri Samba Siva Rao	Andhra Pradesh	Indian National Congress	Graduate	68	82%
+Khagen Das	Tripura	Communist Party of India (Marxist)	Post Graduate	75	74%
+Khatgaonkar Patil Bhaskarrao Bapurao	Maharashtra	Indian National Congress	Graduate	68	74%
+Khiladi Lal Bairwa	Rajasthan	Indian National Congress	Graduate	48	93%
+Killi Krupa Rani	Andhra Pradesh	Indian National Congress	Graduate	46	89%
+Kirit Premjibhai Solanki	Gujarat	Bharatiya Janata Party	Post Graduate	62	93%
+Kirodilal Meena	Rajasthan	Independent	Graduate	60	93%
+Kirti (Jha) Azad	Bihar	Bharatiya Janata Party	Graduate	53	93%
+Kishanbhai Vestabhai Patel	Gujarat	Indian National Congress	Inter/ Higher Secondary	48	85%
+Komatireddy Raj Gopal Reddy	Andhra Pradesh	Indian National Congress	Graduate	45	62%
+Konakalla Narayana Rao	Andhra Pradesh	Telugu Desam Party	Inter/ Higher Secondary	62	77%
+Krishna Tirath	Delhi	Indian National Congress	Post Graduate	57	N/A
+Kristappa Nimmala	Andhra Pradesh	Telugu Desam Party	Graduate	55	82%
+Kuldeep Bishnoi	Haryana	Haryana Janhit Congress	Graduate	43	54%
+Kumbakudi Sudhakaran	Kerala	Indian National Congress	Post Graduate	64	64%
+Kunwarjibhai Mohanbhai Bavaliya	Gujarat	Indian National Congress	Graduate	57	69%
+Lakshmi Panabaka	Andhra Pradesh	Indian National Congress	Post Graduate	53	N/A
+Lal Chand Kataria	Rajasthan	Indian National Congress	Inter/ Higher Secondary	44	92%
+Lal Ji Tandon	Uttar Pradesh	Bharatiya Janata Party	Graduate	77	77%
+Lal Krishna Advani	Gujarat	Bharatiya Janata Party	Graduate	84	98%
+Lalit Mohan Suklabaidya	Assam	Indian National Congress	Post Graduate	69	95%
+Lalu Prasad	Bihar	Rashtriya Janata Dal	Graduate	64	77%
+Lalubhai Babubhai Patel	Daman and Diu	Bharatiya Janata Party	Matric	57	64%
+Laxman Tudu	Orissa	Biju Janata Dal	Graduate	47	54%
+M. Anjan Kumar Yadav	Andhra Pradesh	Indian National Congress	Graduate	51	69%
+M. B. Rajesh	Kerala	Communist Party of India (Marxist)	Post Graduate	41	94%
+M. I. Shanavas	Kerala	Indian National Congress	Post Graduate	60	80%
+M. Jagannath	Andhra Pradesh	Indian National Congress	Post Graduate	61	76%
+M. K. Alagiri	Tamil Nadu	Dravida Munnetra Kazhagam	Graduate	61	N/A
+M. K. Raghavan	Kerala	Indian National Congress	Graduate	60	76%
+M. Krishnaswamy	Tamil Nadu	Indian National Congress	Graduate	72	89%
+M. Veerappa Moily	Karnataka	Indian National Congress	Graduate	72	N/A
+M. Vijaya Shanthi	Andhra Pradesh	Telangana Rashtra Samithi	Matric	46	13%
+Madan Lal Sharma	Jammu and Kashmir	Indian National Congress	Inter/ Higher Secondary	60	91%
+Madhu Goud Yaskhi	Andhra Pradesh	Indian National Congress	Post Graduate	51	74%
+Madhu Kora	Jharkhand	Independent	Graduate	41	27%
+Madhusudan Yadav	Chhattisgarh	Bharatiya Janata Party	Inter/ Higher Secondary	42	37%
+Magunta Srinivasulu Reddy	Andhra Pradesh	Indian National Congress	Graduate	58	58%
+Mahabal Mishra	Delhi	Indian National Congress	Inter/ Higher Secondary	59	94%
+Mahabali Singh	Bihar	Janata Dal (United)	Under Matric	57	90%
+Mahadeo Singh Khandela	Rajasthan	Indian National Congress	Post Graduate	68	N/A
+Mahendra Kumar Roy	West Bengal	Communist Party of India (Marxist)	Graduate	56	92%
+Mahendrasinh Pruthvisinh Chauhan	Gujarat	Bharatiya Janata Party	Graduate	58	99%
+Mahesh Joshi	Rajasthan	Indian National Congress	Doctorate	57	95%
+Maheshwar Hazari	Bihar	Janata Dal (United)	Graduate	49	93%
+Makhansingh Solanki	Madhya Pradesh	Bharatiya Janata Party	Under Matric	60	84%
+Mallikarjun Kharge	Karnataka	Indian National Congress	Graduate	70	N/A
+Mallipudi Raju Pallam Mangapati	Andhra Pradesh	Indian National Congress	Post Graduate	50	N/A
+Mamata Banerjee	West Bengal	All India Trinamool Congress	Post Graduate	57	N/A
+Maneka Gandhi	Uttar Pradesh	Bharatiya Janata Party	Inter/ Higher Secondary	56	74%
+Mangani Lal Mandal	Bihar	Janata Dal (United)	Post Graduate	64	96%
+Manicka Tagore	Tamil Nadu	Indian National Congress	Graduate	37	90%
+Manikrao Hodlya Gavit	Maharashtra	Indian National Congress	Matric	77	89%
+Manish Tewari	Punjab	Indian National Congress	Graduate	46	89%
+Manohar Tirkey	West Bengal	Revolutionary Socialist Party	Inter/ Higher Secondary	58	60%
+Mansukhbhai D. Vasava	Gujarat	Bharatiya Janata Party	Post Graduate	55	82%
+Marotrao Sainuji Kowase	Maharashtra	Indian National Congress	Post Graduate	62	85%
+Mausam Noor	West Bengal	Indian National Congress	Graduate	32	72%
+Meena Singh	Bihar	Janata Dal (United)	Graduate	50	87%
+Meenakshi Natrajan	Madhya Pradesh	Indian National Congress	Post Graduate	39	86%
+Meira Kumar	Bihar	Indian National Congress	Post Graduate	67	N/A
+Mekapati Rajamohan Reddy	Andhra Pradesh	Yuvajana Sramika Rythu Congress Party	Graduate	68	59%
+Milind Murli Deora	Maharashtra	Indian National Congress	Graduate	35	88%
+Mirza Mehboob Beg	Jammu and Kashmir	Jammu and Kashmir National Conference	Graduate	63	84%
+Mithlesh Kumar	Uttar Pradesh	Samajwadi Party	Graduate	47	87%
+Modugula Venugopala Reddy	Andhra Pradesh	Telugu Desam Party	Graduate	46	65%
+Mohammed Azharuddin	Uttar Pradesh	Indian National Congress	Graduate	49	76%
+Mohan Jena	Orissa	Biju Janata Dal	Post Graduate	55	74%
+Mohinder Singh Kaypee	Punjab	Indian National Congress	Graduate	55	89%
+Monazir Hassan	Bihar	Janata Dal (United)	Doctorate	55	86%
+Mukul Balkrishna Wasnik	Maharashtra	Indian National Congress	Post Graduate	52	N/A
+Mulayam Singh Yadav	Uttar Pradesh	Samajwadi Party	Post Graduate	72	85%
+Munde Gopinathrao Pandurang	Maharashtra	Bharatiya Janata Party	Graduate	62	72%
+Munisamy Thambidurai	Tamil Nadu	All India Anna Dravida Munnetra Kazhagam	Doctorate	65	82%
+Murarilal Singh	Chhattisgarh	Bharatiya Janata Party	Inter/ Higher Secondary	60	70%
+Murli Manohar Joshi	Uttar Pradesh	Bharatiya Janata Party	Doctorate	78	86%
+N Cheluvaraya Swamy @ Swamygowda	Karnataka	Janata Dal (Secular)	Diploma Course	52	60%
+N. Peethambara Kurup	Kerala	Indian National Congress	Graduate	70	85%
+N.Dharam Singh	Karnataka	Indian National Congress	Post Graduate	75	71%
+N.S.V. Chitthan	Tamil Nadu	Indian National Congress	Graduate	78	92%
+Nalin Kumar Kateel	Karnataka	Bharatiya Janata Party	Matric	45	72%
+Nama Nageswara Rao	Andhra Pradesh	Telugu Desam Party	Inter/ Higher Secondary	55	84%
+Namo Narain Meena	Rajasthan	Indian National Congress	Post Graduate	68	N/A
+Narahari Mahato	West Bengal	All India Forward Bloc	Post Graduate	56	71%
+Naramalli Sivaprasad	Andhra Pradesh	Telugu Desam Party	Graduate	61	57%
+Naranbhai Kachhadia	Gujarat	Bharatiya Janata Party	Under Matric	57	94%
+Narayan Singh Amlabe	Madhya Pradesh	Indian National Congress	Inter/ Higher Secondary	61	95%
+Narendra Singh Tomar	Madhya Pradesh	Bharatiya Janata Party	Graduate	55	70%
+Natubhai Gomanbhai Patel	Dadra and Nagar Haveli	Bharatiya Janata Party	Under Matric	40	48%
+Naveen Jindal	Haryana	Indian National Congress	Post Graduate	42	82%
+Navjot Singh Sidhu	Punjab	Bharatiya Janata Party	Graduate	48	28%
+Neeraj Shekhar	Uttar Pradesh	Samajwadi Party	Graduate	43	93%
+Nikhil Kumar Choudhary	Bihar	Bharatiya Janata Party	Graduate	66	86%
+Nilesh Narayan Rane	Maharashtra	Indian National Congress	Doctorate	31	73%
+Ninong Ering	Arunachal Pradesh	Indian National Congress	Graduate	53	88%
+Nirmal Khatri	Uttar Pradesh	Indian National Congress	Doctorate	61	98%
+Nishikant Dubey	Jharkhand	Bharatiya Janata Party	Post Graduate	43	94%
+Nityananda Pradhan	Orissa	Biju Janata Dal	Post Graduate	67	70%
+Nripendra Nath Roy	West Bengal	All India Forward Bloc	Graduate	53	71%
+O. S. Manian	Tamil Nadu	All India Anna Dravida Munnetra Kazhagam	Inter/ Higher Secondary	58	61%
+Om Prakash Yadav	Bihar	Independent	Graduate	50	71%
+P. Balram	Andhra Pradesh	Indian National Congress	Graduate	48	68%
+P. C. Mohan	Karnataka	Bharatiya Janata Party	Inter/ Higher Secondary	49	73%
+P. Jaya Prada Nahata	Uttar Pradesh	Independent	Graduate	50	32%
+P. K. Biju	Kerala	Communist Party of India (Marxist)	Post Graduate	38	84%
+P. Karunakaran	Kerala	Communist Party of India (Marxist)	Post Graduate	67	73%
+P. Kumar	Tamil Nadu	All India Anna Dravida Munnetra Kazhagam	Graduate	41	85%
+P. Lingam	Tamil Nadu	Communist Party of India	Graduate	46	95%
+P. T. Thomas	Kerala	Indian National Congress	Post Graduate	61	100%
+P. Venugopal	Tamil Nadu	All India Anna Dravida Munnetra Kazhagam	Graduate	60	87%
+P. Viswanathan	Tamil Nadu	Indian National Congress	Graduate	48	85%
+P.C. Chacko	Kerala	Indian National Congress	Post Graduate	65	90%
+P.C. Gaddigoudar	Karnataka	Bharatiya Janata Party	Graduate	61	78%
+P.L. Punia	Uttar Pradesh	Indian National Congress	Doctorate	67	98%
+P.R. Natarajan	Tamil Nadu	Communist Party of India (Marxist)	Under Graduate	61	87%
+Paban Singh Ghatowar	Assam	Indian National Congress	Graduate	61	91%
+Padamsinha Bajirao Patil	Maharashtra	Nationalist Congress Party	Graduate	72	55%
+Pakauri Lal	Uttar Pradesh	Samajwadi Party	Under Matric	60	86%
+Palaniappan Chidambaram	Tamil Nadu	Indian National Congress	Post Graduate	66	N/A
+Paramjit Kaur Gulshan	Punjab	Shiromani Akali Dal	Post Graduate	63	81%
+Partap Singh Bajwa	Punjab	Indian National Congress	Graduate	55	84%
+Pashupati Nath Singh	Jharkhand	Bharatiya Janata Party	Graduate	63	90%
+Pawan Kumar Bansal	Chandigarh	Indian National Congress	Graduate	64	N/A
+Pinaki Misra	Orissa	Biju Janata Dal	Graduate	52	76%
+Poonamben Veljibhai Jat	Gujarat	Bharatiya Janata Party	Inter/ Higher Secondary	41	88%
+Prabha Kishore Taviad	Gujarat	Indian National Congress	Post Graduate	58	99%
+Prabhakar Ponnam	Andhra Pradesh	Indian National Congress	Post Graduate	45	85%
+Prabhatsinh Pratapsinh Chauhan	Gujarat	Bharatiya Janata Party	Inter/ Higher Secondary	71	86%
+Prabodh Panda	West Bengal	Communist Party of India	Graduate	66	90%
+Pradeep Kumar Jain Aditya	Uttar Pradesh	Indian National Congress	Post Graduate	50	N/A
+Pradeep Kumar Majhi	Orissa	Indian National Congress	Graduate	36	61%
+Pradeep Kumar Singh	Bihar	Bharatiya Janata Party	Matric	47	72%
+Pradeep Tamta	Uttarakhand	Indian National Congress	Post Graduate	54	95%
+Praful Manoharbhai Patel	Maharashtra	Nationalist Congress Party	Graduate	55	N/A
+Pralhad Venkatesh Joshi	Karnataka	Bharatiya Janata Party	Graduate	49	78%
+Pranab Mukherjee	West Bengal	Indian National Congress	Post Graduate	76	N/A
+Prasanna Kumar Patasani	Orissa	Biju Janata Dal	Doctorate	66	83%
+Prasanta Kumar Majumdar	West Bengal	Revolutionary Socialist Party	Post Graduate	71	76%
+Pratik Prakashbapu Patil	Maharashtra	Indian National Congress	Diploma Course	39	N/A
+Praveen Singh Aron	Uttar Pradesh	Indian National Congress	Graduate	53	73%
+Prem Das Rai	Sikkim	Sikkim Democratic Front	Graduate	58	90%
+Premchandra Guddu	Madhya Pradesh	Indian National Congress	Inter/ Higher Secondary	52	78%
+Premdas Katheria	Uttar Pradesh	Samajwadi Party	Graduate	47	94%
+Preneet Kaur	Punjab	Indian National Congress	Graduate	67	N/A
+Priya Sunil Dutt	Maharashtra	Indian National Congress	Post Graduate	46	60%
+Pulin Bihari Baske	West Bengal	Communist Party of India (Marxist)	Graduate	44	92%
+Purnmasi Ram	Bihar	Janata Dal (United)	Matric	62	85%
+Putul Kumari	Bihar	Independent	Information not available	53	91%
+R. Thamaraiselvan	Tamil Nadu	Dravida Munnetra Kazhagam	Graduate	49	81%
+R.K. Singh Patel	Uttar Pradesh	Samajwadi Party	Graduate	53	84%
+Radha Mohan Singh	Bihar	Bharatiya Janata Party	Graduate	63	87%
+Radhe Mohan Singh	Uttar Pradesh	Samajwadi Party	Graduate	45	74%
+Raghavendra Yeddyurappa	Karnataka	Bharatiya Janata Party	Graduate	39	58%
+Raghuvansh Prasad Singh	Bihar	Rashtriya Janata Dal	Doctorate	66	99%
+Raghuvir Singh Meena	Rajasthan	Indian National Congress	Graduate	53	84%
+Rahul Gandhi	Uttar Pradesh	Indian National Congress	Post Graduate	42	42%
+Raj Babbar	Uttar Pradesh	Indian National Congress	Graduate	60	69%
+Raj Kumari Chauhan	Uttar Pradesh	Bahujan Samaj Party	Inter/ Higher Secondary	42	83%
+Raja Ram Pal	Uttar Pradesh	Indian National Congress	Graduate	51	91%
+Rajagopal Lagadapati	Andhra Pradesh	Indian National Congress	Graduate	48	76%
+Rajaiah Siricilla	Andhra Pradesh	Indian National Congress	Graduate	59	79%
+Rajan Sushant	Himachal Pradesh	Bharatiya Janata Party	Doctorate	57	94%
+Rajen Gohain	Assam	Bharatiya Janata Party	Graduate	61	58%
+Rajendra Agrawal	Uttar Pradesh	Bharatiya Janata Party	Post Graduate	62	98%
+Rajendrasinh Ghanshyamsinh Rana (Raju Rana)	Gujarat	Bharatiya Janata Party	Graduate	56	85%
+Rajesh Nandini Singh	Madhya Pradesh	Indian National Congress	Graduate	55	89%
+Rajiv Ranjan (Lalan) Singh	Bihar	Janata Dal (United)	Graduate	57	93%
+Rajnath Singh	Uttar Pradesh	Bharatiya Janata Party	Post Graduate	61	80%
+Raju Shetti	Maharashtra	Swabhimani Paksha	Diploma Course	45	74%
+Rakesh Pandey	Uttar Pradesh	Bahujan Samaj Party	Matric	60	85%
+Rakesh Sachan	Uttar Pradesh	Samajwadi Party	Post Graduate	47	87%
+Rakesh Singh	Madhya Pradesh	Bharatiya Janata Party	Graduate	50	80%
+Ram Chandra Dome	West Bengal	Communist Party of India (Marxist)	Graduate	53	82%
+Ram Singh Kaswan	Rajasthan	Bharatiya Janata Party	Graduate	67	92%
+Ram Sundar Das	Bihar	Janata Dal (United)	Matric	91	87%
+Rama Devi	Bihar	Bharatiya Janata Party	Graduate	63	87%
+Ramachandran Mullappally	Kerala	Indian National Congress	Post Graduate	67	N/A
+Ramakant Yadav	Uttar Pradesh	Bharatiya Janata Party	Matric	55	47%
+Ramashankar Rajbhar	Uttar Pradesh	Bahujan Samaj Party	Graduate	52	95%
+Ramen Deka	Assam	Bharatiya Janata Party	Graduate	58	87%
+Ramesh Bais	Chhattisgarh	Bharatiya Janata Party	Inter/ Higher Secondary	65	94%
+Ramesh Chandappa Jigajinagi	Karnataka	Bharatiya Janata Party	Post Graduate	60	81%
+Ramesh Kumar	Delhi	Indian National Congress	Matric	57	100%
+Ramesh Rathod	Andhra Pradesh	Telugu Desam Party	Graduate	45	51%
+Ramkishun	Uttar Pradesh	Samajwadi Party	Graduate	56	86%
+Ramshankar	Uttar Pradesh	Bharatiya Janata Party	Doctorate	47	73%
+Ramsinhbhai Patalyabhai Rathwa	Gujarat	Bharatiya Janata Party	Post Diploma Course	61	80%
+Ranee Narah	Assam	Indian National Congress	Graduate	46	83%
+Ranjan Prasad Yadav	Bihar	Janata Dal (United)	Doctorate	67	87%
+Raosaheb Patil Danve	Maharashtra	Bharatiya Janata Party	Under Graduate	57	63%
+Ratan Singh	Rajasthan	Indian National Congress	Graduate	65	95%
+Ratanjit Pratap Narayan Singh	Uttar Pradesh	Indian National Congress	Graduate	48	N/A
+Ratna De	West Bengal	All India Trinamool Congress	Post Graduate	64	81%
+Ratna Singh	Uttar Pradesh	Indian National Congress	Graduate	53	85%
+Rattan Singh Ajnala	Punjab	Shiromani Akali Dal	Graduate	68	85%
+Ravindra Kumar Pandey	Jharkhand	Bharatiya Janata Party	Graduate	53	87%
+Ravneet Singh	Punjab	Indian National Congress	Inter/ Higher Secondary	37	77%
+Rewati Raman Singh	Uttar Pradesh	Samajwadi Party	Graduate	68	87%
+Rudramadhab Ray	Orissa	Biju Janata Dal	Graduate	74	76%
+S. Alagiri	Tamil Nadu	Indian National Congress	Graduate	59	70%
+S. Gandhiselvan	Tamil Nadu	Dravida Munnetra Kazhagam	Post Graduate	49	N/A
+S. Jagathrakshakan	Tamil Nadu	Dravida Munnetra Kazhagam	Inter/ Higher Secondary	64	N/A
+S. Pakkirappa	Karnataka	Bharatiya Janata Party	Under Matric	53	64%
+S. R. Jeyadurai	Tamil Nadu	Dravida Munnetra Kazhagam	Graduate	43	58%
+S. Semmalai	Tamil Nadu	All India Anna Dravida Munnetra Kazhagam	Graduate	67	85%
+S.P.Y. Reddy	Andhra Pradesh	Indian National Congress	Graduate	62	48%
+S.S. Palanimanickam	Tamil Nadu	Dravida Munnetra Kazhagam	Graduate	62	N/A
+S.S. Ramasubbu	Tamil Nadu	Indian National Congress	Post Graduate	62	98%
+Sabbam Hari	Andhra Pradesh	Indian National Congress	Graduate	60	77%
+Sachin Pilot	Rajasthan	Indian National Congress	Post Graduate	35	N/A
+Sadashivrao Dadoba Mandlik	Maharashtra	Independent	Graduate	77	47%
+Sai Prathap Annayyagari	Andhra Pradesh	Indian National Congress	Under Graduate	67	87%
+Sajjan Singh Verma	Madhya Pradesh	Indian National Congress	Post Graduate	59	88%
+Sakti Mohan Malik	West Bengal	Communist Party of India (Marxist)	Post Graduate	53	92%
+Salman Khurshid	Uttar Pradesh	Indian National Congress	Post Graduate	59	N/A
+Sambasiva Rayapati Rao	Andhra Pradesh	Indian National Congress	Graduate	69	67%
+Sameer Magan Bhujbal	Maharashtra	Nationalist Congress Party	Matric	38	68%
+Sandeep Dikshit	Delhi	Indian National Congress	Post Graduate	48	92%
+Sanjay Bhoi	Orissa	Indian National Congress	Graduate	38	86%
+Sanjay Dina Patil	Maharashtra	Nationalist Congress Party	Graduate	43	86%
+Sanjay Jaiswal	Bihar	Bharatiya Janata Party	Post Graduate	46	84%
+Sanjay Nirupam	Maharashtra	Indian National Congress	Graduate	47	92%
+Sanjay Shamrao Dhotre	Maharashtra	Bharatiya Janata Party	Graduate	53	76%
+Sanjay Singh Chauhan	Uttar Pradesh	Rashtriya Lok Dal	Graduate	50	88%
+Sanjay Sinh	Uttar Pradesh	Indian National Congress	Doctorate	60	77%
+Sanjeev Ganesh Naik	Maharashtra	Nationalist Congress Party	Inter/ Higher Secondary	40	94%
+Sansuma Khunggur Bwiswmuthiary	Assam	Bodoland People's Front	Graduate	52	61%
+Santosh Chowdhary	Punjab	Indian National Congress	Post Graduate	67	85%
+Sarika Singh Baghel	Uttar Pradesh	Rashtriya Lok Dal	Post Graduate	32	94%
+Saroj Pandey	Chhattisgarh	Bharatiya Janata Party	Post Graduate	44	73%
+Satabdi Roy	West Bengal	All India Trinamool Congress	Graduate	42	72%
+Sathyanarayana Sarvey	Andhra Pradesh	Indian National Congress	Post Graduate	58	72%
+Satpal Maharaj	Uttarakhand	Indian National Congress	Inter/ Higher Secondary	60	86%
+Saugata Roy	West Bengal	All India Trinamool Congress	Post Graduate	65	N/A
+Seema Upadhyay	Uttar Pradesh	Bahujan Samaj Party	Graduate	47	87%
+Selja	Haryana	Indian National Congress	Post Graduate	49	N/A
+Shafiqur Rahman Barq	Uttar Pradesh	Bahujan Samaj Party	Graduate	82	98%
+Shailendra Kumar	Uttar Pradesh	Samajwadi Party	Post Graduate	52	97%
+Sharad Chandra Govindrao Pawar	Maharashtra	Nationalist Congress Party	Graduate	71	N/A
+Sharad Yadav	Bihar	Janata Dal (United)	Graduate	65	84%
+Sharifuddin Shariq	Jammu and Kashmir	Jammu and Kashmir National Conference	Post Graduate	77	88%
+Shashi Tharoor	Kerala	Indian National Congress	Doctorate	56	87%
+Shatrughan Sinha	Bihar	Bharatiya Janata Party	Graduate	66	73%
+Sheesh Ram Ola	Rajasthan	Indian National Congress	Matric	85	94%
+Sher Singh Ghubaya	Punjab	Shiromani Akali Dal	Matric	50	63%
+Shibu Soren	Jharkhand	Jharkhand Mukti Morcha	Matric	68	21%
+Shivaji Adhalrao Patil	Maharashtra	Shiv Sena	Inter/ Higher Secondary	56	42%
+Shivaramagouda Shivanagouda	Karnataka	Bharatiya Janata Party	Graduate	58	77%
+Shivraj Singh Lodhi	Madhya Pradesh	Bharatiya Janata Party	Matric	68	87%
+Shrimant Chh. Udyanraje Pratapsinhmaharaj Bhonsle	Maharashtra	Nationalist Congress Party	Post Graduate	46	52%
+Shripad Yesso Naik	Goa	Bharatiya Janata Party	Graduate	59	81%
+Shriprakash Jaiswal	Uttar Pradesh	Indian National Congress	Inter/ Higher Secondary	67	N/A
+Shruti Choudhry	Haryana	Indian National Congress	Graduate	36	80%
+Sidhant Mohapatra	Orissa	Biju Janata Dal	Post Graduate	46	62%
+Sisir Kumar Adhikari	West Bengal	All India Trinamool Congress	Inter/ Higher Secondary	70	N/A
+Sivakumar @ J.K. Ritheesh. K	Tamil Nadu	Dravida Munnetra Kazhagam	Graduate	39	38%
+Sk. Nurul Islam	West Bengal	All India Trinamool Congress	Matric	48	42%
+Sk. Saidul Haque	West Bengal	Communist Party of India (Marxist)	Post Graduate	58	97%
+Sohan Potai	Chhattisgarh	Bharatiya Janata Party	Post Graduate	54	71%
+Solanki Dinubhai Boghabhal	Gujarat	Bharatiya Janata Party	Graduate	55	17%
+Somabhai Gandalal Koli Patel	Gujarat	Indian National Congress	Under Matric	72	87%
+Somendra Nath Mitra	West Bengal	All India Trinamool Congress	Graduate	68	48%
+Sonawane Pratap Narayanrao	Maharashtra	Bharatiya Janata Party	Graduate	63	50%
+Sonia Gandhi	Uttar Pradesh	Indian National Congress	Diploma Course	65	47%
+Srikanta Kumar Jena	Orissa	Indian National Congress	Graduate	62	N/A
+Subhash Bapurao Wankhede	Maharashtra	Shiv Sena	Matric	49	65%
+Subodh Kant Sahay	Jharkhand	Indian National Congress	Graduate	61	N/A
+Subrata Bakshi	West Bengal	All India Trinamool Congress	Professional Graduate	62	32%
+Sucharu Ranjan Haldar	West Bengal	All India Trinamool Congress	Post Graduate	72	82%
+Sudarshan Bhagat	Jharkhand	Bharatiya Janata Party	Graduate	42	87%
+Sudip Bandyopadhyay	West Bengal	All India Trinamool Congress	Graduate	59	89%
+Sukender Reddy Gutha	Andhra Pradesh	Indian National Congress	Graduate	58	63%
+Sukhdev Singh Libra	Punjab	Indian National Congress	Matric	79	97%
+Sultan Ahmed	West Bengal	All India Trinamool Congress	Graduate	59	N/A
+Sumitra Mahajan	Madhya Pradesh	Bharatiya Janata Party	Post Graduate	69	86%
+Supriya Sule	Maharashtra	Nationalist Congress Party	Graduate	43	85%
+Surendra Singh Nagar	Uttar Pradesh	Bahujan Samaj Party	Graduate	47	79%
+Suresh Channabasappa Angadi	Karnataka	Bharatiya Janata Party	Graduate	57	74%
+Suresh Kalmadi	Maharashtra	Indian National Congress	Graduate	68	42%
+Suresh Kashinath Taware	Maharashtra	Indian National Congress	Graduate	52	85%
+Suresh Kodikunnil	Kerala	Indian National Congress	Graduate	50	81%
+Suresh Kumar Shetkar	Andhra Pradesh	Indian National Congress	Graduate	52	77%
+Sushil Kumar Sambhajirao Shinde	Maharashtra	Indian National Congress	Graduate	71	N/A
+Sushil Kumar Singh	Bihar	Janata Dal (United)	Post Graduate	49	76%
+Sushila Saroj	Uttar Pradesh	Samajwadi Party	Post Graduate	61	88%
+Sushma Swaraj	Madhya Pradesh	Bharatiya Janata Party	Graduate	60	94%
+Susmita Bauri	West Bengal	Communist Party of India (Marxist)	Graduate	37	94%
+Suvendu Adhikari	West Bengal	All India Trinamool Congress	Graduate	41	23%
+Syed Shahnawaz Hussain	Bihar	Bharatiya Janata Party	Diploma Course	43	93%
+T.K.S. Elangovan	Tamil Nadu	Dravida Munnetra Kazhagam	Post Graduate	58	93%
+Tabassum Hasan	Uttar Pradesh	Bahujan Samaj Party	Matric	41	66%
+Takam Sanjoy	Arunachal Pradesh	Indian National Congress	Graduate	45	66%
+Tapas Paul	West Bengal	All India Trinamool Congress	Graduate	54	67%
+Tarachand Bhagora	Rajasthan	Indian National Congress	Post Graduate	58	81%
+Tarun Mandal	West Bengal	Independent	Graduate	53	74%
+Tathagata Satpathy	Orissa	Biju Janata Dal	Graduate	56	71%
+Thalikkottai Rajuthevar Baalu	Tamil Nadu	Dravida Munnetra Kazhagam	Graduate	71	82%
+Thangso Baite	Manipur	Indian National Congress	Post Graduate	59	99%
+Thirumaa Valavan Thol	Tamil Nadu	Viduthalai Chiruthaigal Katchi	Post Graduate	50	47%
+Thokchom Meinya	Manipur	Indian National Congress	Doctorate	66	99%
+Tufani Saroj	Uttar Pradesh	Samajwadi Party	Graduate	56	89%
+Tushar Amarsinh Chaudhary	Gujarat	Indian National Congress	Graduate	46	N/A
+Udasi Shivkumar Chanabasappa	Karnataka	Bharatiya Janata Party	Graduate	45	90%
+Uday Pratap Singh	Madhya Pradesh	Indian National Congress	Graduate	48	83%
+Uday Singh Alias Pappu Singh	Bihar	Bharatiya Janata Party	Inter/ Higher Secondary	59	74%
+Uma Shanker Singh	Bihar	Rashtriya Janata Dal	Inter/ Higher Secondary	72	89%
+Usha Verma	Uttar Pradesh	Samajwadi Party	Post Graduate	49	85%
+V. Kishore Chandra S. Deo	Andhra Pradesh	Indian National Congress	Post Graduate	65	91%
+V. Narayanasamy	Puducherry	Indian National Congress	Post Graduate	65	N/A
+Vijay Bahadur Singh	Uttar Pradesh	Bahujan Samaj Party	Graduate	71	85%
+Vijay Bahuguna	Uttarakhand	Indian National Congress	Graduate	65	80%
+Vijay Inder Singla	Punjab	Indian National Congress	Graduate	40	85%
+Vikrambhai Arjanbhai Maadam	Gujarat	Indian National Congress	Graduate	54	77%
+Vilas Baburao Muttemwar	Maharashtra	Indian National Congress	Graduate	63	80%
+Vinay Kumar Pandey	Uttar Pradesh	Indian National Congress	Doctorate	48	85%
+Vincent H Pala	Meghalaya	Indian National Congress	Graduate	44	N/A
+Virbhadra Singh	Himachal Pradesh	Indian National Congress	Post Graduate	78	N/A
+Virender Kashyap	Himachal Pradesh	Bharatiya Janata Party	Post Graduate	62	88%
+Virendra Kumar	Madhya Pradesh	Bharatiya Janata Party	Doctorate	58	95%
+Vishnu Deo Sai	Chhattisgarh	Bharatiya Janata Party	Inter/ Higher Secondary	48	59%
+Vishwa Mohan Kumar	Bihar	Janata Dal (United)	Post Graduate	54	82%
+Vitthalbhai Hansrajbhai Radadiya	Gujarat	Indian National Congress	Graduate	53	27%
+Wakchaure Bhausaheb Rajaram	Maharashtra	Shiv Sena	Graduate	62	67%
+Y. S. Jagan Mohan Reddy	Andhra Pradesh	Yuvajana Sramika Rythu Congress Party	Graduate	39	40%
+Yashbant Narayan Singh Laguri	Orissa	Biju Janata Dal	Graduate	41	70%
+Yashodhara Raje Scindia	Madhya Pradesh	Bharatiya Janata Party	Inter/ Higher Secondary	58	78%
+Yashvir Singh	Uttar Pradesh	Samajwadi Party	Graduate	39	86%
+Yashwant Sinha	Jharkhand	Bharatiya Janata Party	Post Graduate	74	89%
+Yogi Adityanath	Uttar Pradesh	Bharatiya Janata Party	Graduate	40	74%
+Zafar Ali Naqvi	Uttar Pradesh	Indian National Congress	Graduate	65	79%

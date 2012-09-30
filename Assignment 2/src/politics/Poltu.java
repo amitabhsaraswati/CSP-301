@@ -267,6 +267,8 @@ public class Poltu extends Display {
         addControlListener(new WheelZoomControl());
 
         addControlListener(new ZoomToFitControl());
+        
+        addControlListener(new Click());
 
     	setBackground(Color.BLACK);        
 
