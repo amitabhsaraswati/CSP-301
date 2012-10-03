@@ -6,11 +6,15 @@ import java.awt.BorderLayout;
 
 import java.awt.Color;
 
+import java.awt.Dimension;
+
 import java.awt.Insets;
 
 import java.awt.event.ActionEvent;
 
 import java.awt.event.ActionListener;
+
+import java.awt.event.MouseEvent;
 
 
 
@@ -30,6 +34,10 @@ import javax.swing.JToolBar;
 
 import javax.swing.JPopupMenu;
 
+import javax.swing.SwingConstants;
+
+import javax.swing.text.StyledEditorKit.FontSizeAction;
+
 
 
 import prefuse.Constants;
@@ -44,11 +52,19 @@ import prefuse.action.RepaintAction;
 
 import prefuse.action.assignment.ColorAction;
 
+import prefuse.action.assignment.DataColorAction;
+
 import prefuse.action.assignment.DataShapeAction;
+
+import prefuse.action.assignment.SizeAction;
 
 import prefuse.action.layout.AxisLabelLayout;
 
 import prefuse.action.layout.AxisLayout;
+
+import prefuse.controls.Control;
+
+import prefuse.controls.ControlAdapter;
 
 import prefuse.controls.DragControl;
 
@@ -84,6 +100,8 @@ import prefuse.util.ui.UILib;
 
 import prefuse.visual.VisualItem;
 
+import prefuse.visual.VisualTable;
+
 import prefuse.visual.expression.VisiblePredicate;
 
 
@@ -116,9 +134,11 @@ public class Poltu extends Display {
 
         
 
-        m_vis.addTable(group, t);
+        final VisualTable vt = m_vis.addTable(group, t);
 
-            
+        
+
+        //using axis layout to plot the visual items on the basis of the selected fields
 
         AxisLayout x_axis = new AxisLayout(group, xfield, 
 
@@ -136,19 +156,39 @@ public class Poltu extends Display {
 
 
 
-        ColorAction color = new ColorAction(group, 
+        //making a color palette to color the items on the basis of attendance
 
-                VisualItem.STROKECOLOR, ColorLib.rgb(0,200,0));
+        int[] palette = new int[101];
+
+        
+
+        for (int i =0;i<100; i++){
+
+		palette[i] = ColorLib.rgb(0,2*i,0); 
+
+        }
+
+        
+
+        DataColorAction color = new DataColorAction(group, "Attendance", Constants.NOMINAL, 
+
+                VisualItem.STROKECOLOR, palette);
+
+        
 
         m_vis.putAction("color", color);
 
         
 
+        //coloring the lines of the x-axis
+
         ColorAction color2 = new ColorAction("xlab", VisualItem.STROKECOLOR, ColorLib.rgb(200,0,0));
 
         m_vis.putAction("color2", color2);
 
+        
 
+        //coloring the lines of the y-axis
 
         ColorAction color3 = new ColorAction("ylab", VisualItem.STROKECOLOR, ColorLib.rgb(0,0,200));
 
@@ -156,13 +196,23 @@ public class Poltu extends Display {
 
         
 
+        //coloring the labels of the x-axis
+
         ColorAction color4 = new ColorAction("xlab", VisualItem.TEXTCOLOR, ColorLib.rgb(200,0,0));
 
         m_vis.putAction("color4", color4);
 
+        
+
+        //coloring the labels of the y-axis
+
         ColorAction color5 = new ColorAction("ylab", VisualItem.TEXTCOLOR, ColorLib.rgb(0, 0, 200));
 
         m_vis.putAction("color5", color5);
+
+        
+
+        //giving shapes to the visual items on the basis of the specified field
 
         DataShapeAction shape = new DataShapeAction(group, sfield);
 
@@ -170,19 +220,27 @@ public class Poltu extends Display {
 
         
 
+        //specifying the layout of the x-axis
+
         AxisLabelLayout xlabels = new AxisLabelLayout("xlab", x_axis);
+
+        xlabels.setSpacing(70);
 
         m_vis.putAction("xlabels", xlabels);
 
         
 
-        
+        //specifying the layout of the y-axis
 
         AxisLabelLayout ylabels = new AxisLabelLayout("ylab", y_axis);
+
+        ylabels.setSpacing(20);
 
         m_vis.putAction("ylabels", ylabels);
 
         
+
+        //setting up the rendering of the items
 
         m_vis.setRendererFactory(new RendererFactory() {
 
@@ -232,13 +290,7 @@ public class Poltu extends Display {
 
             }
 
-        
-
-        
-
-
-
-      
+              
 
 
 
@@ -274,11 +326,59 @@ public class Poltu extends Display {
 
         
 
-        
+        //when the mouse pointer hovers over a visual item, it's X and Y co-ordinates are displayed    	
 
         ToolTipControl ttc = new ToolTipControl(new String[] {xfield,yfield});
 
         addControlListener(ttc);
+
+        
+
+        
+
+        //when a visual item is clicked
+
+        Control hoverc = new ControlAdapter() {
+
+            public void itemClicked(VisualItem item, MouseEvent e) {
+
+                if ( item.isInGroup(group) ) {
+
+                	int i = item.getRow();
+
+                  String Name = (String) vt.getString(i, "MP name");
+
+                  String party = (String) vt.getString(i, "Political party");
+
+                  String state = (String) vt.getString(i, "State");
+
+                  String age = (String) vt.getString(i, "Age");
+
+                  String attend = (String) vt.getString(i, "Attendance");
+
+                  JPopupMenu jpub = new JPopupMenu();
+
+              	jpub.add("Name: " + Name);
+
+              	jpub.add("Political Party: " + party);
+
+              	jpub.add("State: " + state);
+
+              	jpub.add("Age: " + age);
+
+              	jpub.add("Attendance: " + attend);
+
+              	jpub.show(e.getComponent(),(int) item.getX(),
+
+              			(int) item.getY()); 
+
+              		}
+
+                }
+
+        };        
+
+        addControlListener(hoverc);
 
         
 
@@ -310,7 +410,7 @@ public class Poltu extends Display {
 
     
 
-    
+    //for setting up the toolbar to ask the viewer to put the values for the x-axis, y-axis and the shape
 
     public static JToolBar getEncodingToolbar(final Poltu sp,
 
@@ -340,6 +440,8 @@ public class Poltu extends Display {
 
         
 
+        //box for taking the value of what appears on the x-axis and then redrawing the display
+
         final JComboBox xcb = new JComboBox(colnames);
 
         xcb.setSelectedItem(xfield);
@@ -359,6 +461,8 @@ public class Poltu extends Display {
                 AxisLabelLayout xlabels = (AxisLabelLayout)vis.getAction("xlabels");
 
                 xlabels = new AxisLabelLayout("xlab", xaxis);
+
+                xlabels.setSpacing(70);
 
                 vis.putAction("xlabels", xlabels);
 
@@ -380,6 +484,8 @@ public class Poltu extends Display {
 
                 draw.add(colorlb);
 
+                
+
                 vis.run("draw");
 
 
@@ -395,6 +501,10 @@ public class Poltu extends Display {
         toolbar.add(Box.createHorizontalStrut(2*spacing));
 
         
+
+        //box for taking the value of what appears on the y-axis and then redrawing the display
+
+
 
         final JComboBox ycb = new JComboBox(colnames);
 
@@ -415,6 +525,8 @@ public class Poltu extends Display {
                 AxisLabelLayout ylabels = (AxisLabelLayout)vis.getAction("ylabels");
 
                 ylabels = new AxisLabelLayout("ylab", yaxis);
+
+                ylabels.setSpacing(15);
 
                 vis.putAction("ylabels", ylabels);
 
@@ -449,6 +561,8 @@ public class Poltu extends Display {
         toolbar.add(Box.createHorizontalStrut(2*spacing));
 
         
+
+        //box for taking the value on which the shapes are based and then redrawing the display
 
         final JComboBox scb = new JComboBox(colnames);
 
@@ -541,6 +655,8 @@ public class Poltu extends Display {
     public static Poltu demo(String data, String xfield,
 
                                    String yfield, String sfield)
+
+    //input reader from the tab separated variables file "Book1.txt"
 
     {
 
